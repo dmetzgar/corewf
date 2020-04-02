@@ -69,1026 +69,1364 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.Hosting.WorkflowInstance">
-  
-  
-  <h1 id="System_Activities_Hosting_WorkflowInstance" data-uid="System.Activities.Hosting.WorkflowInstance" class="text-break">Class WorkflowInstance
+  <h1 id="System_Activities_Hosting_WorkflowInstance" data-uid="System.Activities.Hosting.WorkflowInstance">Class WorkflowInstance
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">WorkflowInstance</span></div>
-      <div class="level2"><a class="xref" href="System.Activities.WorkflowApplication.html">WorkflowApplication</a></div>
   </div>
+  
+      <div class="level2"><a class="xref" href="System.Activities.WorkflowApplication.html">WorkflowApplication</a></div>
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.Hosting.html">System.Activities.Hosting</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_Hosting_WorkflowInstance_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class WorkflowInstance : Object</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance__ctor_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor(System.Activities.Activity)">WorkflowInstance(Activity)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor(System.Activities.Activity)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_" class="expander" data-toggle="collapse">WorkflowInstance(Activity)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected WorkflowInstance(Activity workflowDefinition)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
-        <td><span class="parametername">workflowDefinition</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Activity.html">Activity</a></span>
+        <span class="parametername">workflowDefinition</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance__ctor_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor(System.Activities.Activity,System.Activities.WorkflowIdentity)">WorkflowInstance(Activity, WorkflowIdentity)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Hosting.WorkflowInstance.#ctor(System.Activities.Activity,System.Activities.WorkflowIdentity)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_System_Activities_WorkflowIdentity_" class="expander" data-toggle="collapse">WorkflowInstance(Activity, WorkflowIdentity)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance__ctor_System_Activities_Activity_System_Activities_WorkflowIdentity_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected WorkflowInstance(Activity workflowDefinition, WorkflowIdentity definitionIdentity)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
-        <td><span class="parametername">workflowDefinition</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
-        <td><span class="parametername">definitionIdentity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Activity.html">Activity</a></span>
+        <span class="parametername">workflowDefinition</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></span>
+        <span class="parametername">definitionIdentity</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_Controller_" data-uid="System.Activities.Hosting.WorkflowInstance.Controller*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_Controller" data-uid="System.Activities.Hosting.WorkflowInstance.Controller">Controller</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_Controller" data-uid="System.Activities.Hosting.WorkflowInstance.Controller"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_Controller" class="expander" data-toggle="collapse">Controller</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_Controller" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected WorkflowInstance.WorkflowInstanceControl Controller { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.html">WorkflowInstance.WorkflowInstanceControl</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.html">WorkflowInstance.WorkflowInstanceControl</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_DefinitionIdentity_" data-uid="System.Activities.Hosting.WorkflowInstance.DefinitionIdentity*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_DefinitionIdentity" data-uid="System.Activities.Hosting.WorkflowInstance.DefinitionIdentity">DefinitionIdentity</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_DefinitionIdentity" data-uid="System.Activities.Hosting.WorkflowInstance.DefinitionIdentity"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_DefinitionIdentity" class="expander" data-toggle="collapse">DefinitionIdentity</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_DefinitionIdentity" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public WorkflowIdentity DefinitionIdentity { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_HostEnvironment_" data-uid="System.Activities.Hosting.WorkflowInstance.HostEnvironment*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_HostEnvironment" data-uid="System.Activities.Hosting.WorkflowInstance.HostEnvironment">HostEnvironment</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_HostEnvironment" data-uid="System.Activities.Hosting.WorkflowInstance.HostEnvironment"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_HostEnvironment" class="expander" data-toggle="collapse">HostEnvironment</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_HostEnvironment" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public LocationReferenceEnvironment HostEnvironment { get; set; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.LocationReferenceEnvironment.html">LocationReferenceEnvironment</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.LocationReferenceEnvironment.html">LocationReferenceEnvironment</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_Id_" data-uid="System.Activities.Hosting.WorkflowInstance.Id*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_Id" data-uid="System.Activities.Hosting.WorkflowInstance.Id">Id</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_Id" data-uid="System.Activities.Hosting.WorkflowInstance.Id"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_Id" class="expander" data-toggle="collapse">Id</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_Id" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract Guid Id { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Guid</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_IsReadOnly_" data-uid="System.Activities.Hosting.WorkflowInstance.IsReadOnly*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_IsReadOnly" data-uid="System.Activities.Hosting.WorkflowInstance.IsReadOnly">IsReadOnly</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_IsReadOnly" data-uid="System.Activities.Hosting.WorkflowInstance.IsReadOnly"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_IsReadOnly" class="expander" data-toggle="collapse">IsReadOnly</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_IsReadOnly" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected bool IsReadOnly { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys_" data-uid="System.Activities.Hosting.WorkflowInstance.SupportsInstanceKeys*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys" data-uid="System.Activities.Hosting.WorkflowInstance.SupportsInstanceKeys">SupportsInstanceKeys</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys" data-uid="System.Activities.Hosting.WorkflowInstance.SupportsInstanceKeys"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys" class="expander" data-toggle="collapse">SupportsInstanceKeys</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract bool SupportsInstanceKeys { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_SynchronizationContext_" data-uid="System.Activities.Hosting.WorkflowInstance.SynchronizationContext*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_SynchronizationContext" data-uid="System.Activities.Hosting.WorkflowInstance.SynchronizationContext">SynchronizationContext</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_SynchronizationContext" data-uid="System.Activities.Hosting.WorkflowInstance.SynchronizationContext"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_SynchronizationContext" class="expander" data-toggle="collapse">SynchronizationContext</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_SynchronizationContext" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public SynchronizationContext SynchronizationContext { get; set; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.SynchronizationContext</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Threading.SynchronizationContext</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_WorkflowDefinition_" data-uid="System.Activities.Hosting.WorkflowInstance.WorkflowDefinition*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_WorkflowDefinition" data-uid="System.Activities.Hosting.WorkflowInstance.WorkflowDefinition">WorkflowDefinition</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_WorkflowDefinition" data-uid="System.Activities.Hosting.WorkflowInstance.WorkflowDefinition"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_WorkflowDefinition" class="expander" data-toggle="collapse">WorkflowDefinition</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_WorkflowDefinition" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Activity WorkflowDefinition { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.Activity.html">Activity</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_" data-uid="System.Activities.Hosting.WorkflowInstance.BeginFlushTrackingRecords*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.BeginFlushTrackingRecords(System.TimeSpan,System.AsyncCallback,System.Object)">BeginFlushTrackingRecords(TimeSpan, AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.BeginFlushTrackingRecords(System.TimeSpan,System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_System_TimeSpan_System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">BeginFlushTrackingRecords(TimeSpan, AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_System_TimeSpan_System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected IAsyncResult BeginFlushTrackingRecords(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.TimeSpan</span></span>
+        <span class="parametername">timeout</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_DisposeExtensions_" data-uid="System.Activities.Hosting.WorkflowInstance.DisposeExtensions*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_DisposeExtensions" data-uid="System.Activities.Hosting.WorkflowInstance.DisposeExtensions">DisposeExtensions()</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_DisposeExtensions" data-uid="System.Activities.Hosting.WorkflowInstance.DisposeExtensions"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_DisposeExtensions" class="expander" data-toggle="collapse">DisposeExtensions()</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_DisposeExtensions" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void DisposeExtensions()</code></pre>
   </div>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_" data-uid="System.Activities.Hosting.WorkflowInstance.EndFlushTrackingRecords*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.EndFlushTrackingRecords(System.IAsyncResult)">EndFlushTrackingRecords(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.EndFlushTrackingRecords(System.IAsyncResult)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_System_IAsyncResult_" class="expander" data-toggle="collapse">EndFlushTrackingRecords(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void EndFlushTrackingRecords(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_" data-uid="System.Activities.Hosting.WorkflowInstance.FlushTrackingRecords*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_System_TimeSpan_" data-uid="System.Activities.Hosting.WorkflowInstance.FlushTrackingRecords(System.TimeSpan)">FlushTrackingRecords(TimeSpan)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_System_TimeSpan_" data-uid="System.Activities.Hosting.WorkflowInstance.FlushTrackingRecords(System.TimeSpan)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_System_TimeSpan_" class="expander" data-toggle="collapse">FlushTrackingRecords(TimeSpan)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_System_TimeSpan_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void FlushTrackingRecords(TimeSpan timeout)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.TimeSpan</span></span>
+        <span class="parametername">timeout</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Hosting_WorkflowInstance_GetExtension_" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtension*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_GetExtension__1" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtension``1">GetExtension&lt;T&gt;()</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_GetExtension__1" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtension``1"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_GetExtension__1" class="expander" data-toggle="collapse">GetExtension&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_GetExtension__1" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected T GetExtension&lt;T&gt;()
     where T : class</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_GetExtensions_" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtensions*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_GetExtensions__1" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtensions``1">GetExtensions&lt;T&gt;()</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_GetExtensions__1" data-uid="System.Activities.Hosting.WorkflowInstance.GetExtensions``1"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_GetExtensions__1" class="expander" data-toggle="collapse">GetExtensions&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_GetExtensions__1" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected IEnumerable&lt;T&gt; GetExtensions&lt;T&gt;()
     where T : class</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_Initialize_" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_Initialize_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_System_Activities_Handle__" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize(System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{System.Activities.Handle})">Initialize(IDictionary&lt;String, Object&gt;, IList&lt;Handle&gt;)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_Initialize_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_System_Activities_Handle__" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize(System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{System.Activities.Handle})"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_Initialize_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_System_Activities_Handle__" class="expander" data-toggle="collapse">Initialize(IDictionary&lt;String, Object&gt;, IList&lt;Handle&gt;)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_Initialize_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_System_Activities_Handle__" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Initialize(IDictionary&lt;string, object&gt; workflowArgumentValues, IList&lt;Handle&gt; workflowExecutionProperties)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">workflowArgumentValues</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="System.Activities.Handle.html">Handle</a>&gt;</td>
-        <td><span class="parametername">workflowExecutionProperties</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</span>
+        <span class="parametername">workflowArgumentValues</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="System.Activities.Handle.html">Handle</a>&gt;</span>
+        <span class="parametername">workflowExecutionProperties</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_Initialize_" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_Initialize_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize(System.Object)">Initialize(Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_Initialize_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.Initialize(System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_Initialize_System_Object_" class="expander" data-toggle="collapse">Initialize(Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_Initialize_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void Initialize(object deserializedRuntimeState)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">deserializedRuntimeState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">deserializedRuntimeState</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginAssociateKeys*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginAssociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey},System.AsyncCallback,System.Object)">OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt;, AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginAssociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey},System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt;, AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract IAsyncResult OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt; keys, AsyncCallback callback, object state)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</td>
-        <td><span class="parametername">keys</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</span>
+        <span class="parametername">keys</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginFlushTrackingRecords*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginFlushTrackingRecords(System.AsyncCallback,System.Object)">OnBeginFlushTrackingRecords(AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginFlushTrackingRecords(System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">OnBeginFlushTrackingRecords(AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual IAsyncResult OnBeginFlushTrackingRecords(AsyncCallback callback, object state)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnBeginPersist_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginPersist*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginPersist_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginPersist(System.AsyncCallback,System.Object)">OnBeginPersist(AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginPersist_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginPersist(System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginPersist_System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">OnBeginPersist(AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginPersist_System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract IAsyncResult OnBeginPersist(AsyncCallback callback, object state)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginResumeBookmark*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)">OnBeginResumeBookmark(Bookmark, Object, TimeSpan, AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.Hosting.WorkflowInstance.OnBeginResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">OnBeginResumeBookmark(Bookmark, Object, TimeSpan, AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract IAsyncResult OnBeginResumeBookmark(Bookmark bookmark, object value, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
-        <td><span class="parametername">bookmark</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
-        <td><span class="parametername">timeout</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></span>
+        <span class="parametername">bookmark</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">value</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.TimeSpan</span></span>
+        <span class="parametername">timeout</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">state</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_" data-uid="System.Activities.Hosting.WorkflowInstance.OnDisassociateKeys*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__" data-uid="System.Activities.Hosting.WorkflowInstance.OnDisassociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey})">OnDisassociateKeys(ICollection&lt;InstanceKey&gt;)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__" data-uid="System.Activities.Hosting.WorkflowInstance.OnDisassociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey})"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__" class="expander" data-toggle="collapse">OnDisassociateKeys(ICollection&lt;InstanceKey&gt;)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnDisassociateKeys(ICollection&lt;InstanceKey&gt; keys)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</td>
-        <td><span class="parametername">keys</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</span>
+        <span class="parametername">keys</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndAssociateKeys*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndAssociateKeys(System.IAsyncResult)">OnEndAssociateKeys(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndAssociateKeys(System.IAsyncResult)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_System_IAsyncResult_" class="expander" data-toggle="collapse">OnEndAssociateKeys(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnEndAssociateKeys(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndFlushTrackingRecords*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndFlushTrackingRecords(System.IAsyncResult)">OnEndFlushTrackingRecords(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndFlushTrackingRecords(System.IAsyncResult)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_System_IAsyncResult_" class="expander" data-toggle="collapse">OnEndFlushTrackingRecords(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnEndFlushTrackingRecords(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnEndPersist_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndPersist*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndPersist_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndPersist(System.IAsyncResult)">OnEndPersist(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndPersist_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndPersist(System.IAsyncResult)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnEndPersist_System_IAsyncResult_" class="expander" data-toggle="collapse">OnEndPersist(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnEndPersist_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnEndPersist(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndResumeBookmark*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndResumeBookmark(System.IAsyncResult)">OnEndResumeBookmark(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_System_IAsyncResult_" data-uid="System.Activities.Hosting.WorkflowInstance.OnEndResumeBookmark(System.IAsyncResult)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_System_IAsyncResult_" class="expander" data-toggle="collapse">OnEndResumeBookmark(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract BookmarkResumptionResult OnEndResumeBookmark(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnNotifyPaused_" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyPaused*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnNotifyPaused" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyPaused">OnNotifyPaused()</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnNotifyPaused" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyPaused"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnNotifyPaused" class="expander" data-toggle="collapse">OnNotifyPaused()</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnNotifyPaused" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnNotifyPaused()</code></pre>
   </div>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException(System.Exception,System.Activities.Activity,System.String)">OnNotifyUnhandledException(Exception, Activity, String)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_" data-uid="System.Activities.Hosting.WorkflowInstance.OnNotifyUnhandledException(System.Exception,System.Activities.Activity,System.String)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_" class="expander" data-toggle="collapse">OnNotifyUnhandledException(Exception, Activity, String)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnNotifyUnhandledException(Exception exception, Activity source, string sourceInstanceId)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">exception</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
-        <td><span class="parametername">source</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourceInstanceId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Exception</span></span>
+        <span class="parametername">exception</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Activity.html">Activity</a></span>
+        <span class="parametername">source</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">sourceInstanceId</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_OnRequestAbort_" data-uid="System.Activities.Hosting.WorkflowInstance.OnRequestAbort*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_OnRequestAbort_System_Exception_" data-uid="System.Activities.Hosting.WorkflowInstance.OnRequestAbort(System.Exception)">OnRequestAbort(Exception)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_OnRequestAbort_System_Exception_" data-uid="System.Activities.Hosting.WorkflowInstance.OnRequestAbort(System.Exception)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_OnRequestAbort_System_Exception_" class="expander" data-toggle="collapse">OnRequestAbort(Exception)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_OnRequestAbort_System_Exception_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract void OnRequestAbort(Exception reason)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Exception</span></span>
+        <span class="parametername">reason</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_" data-uid="System.Activities.Hosting.WorkflowInstance.RegisterExtensionManager*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_System_Activities_Hosting_WorkflowInstanceExtensionManager_" data-uid="System.Activities.Hosting.WorkflowInstance.RegisterExtensionManager(System.Activities.Hosting.WorkflowInstanceExtensionManager)">RegisterExtensionManager(WorkflowInstanceExtensionManager)</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_System_Activities_Hosting_WorkflowInstanceExtensionManager_" data-uid="System.Activities.Hosting.WorkflowInstance.RegisterExtensionManager(System.Activities.Hosting.WorkflowInstanceExtensionManager)"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_System_Activities_Hosting_WorkflowInstanceExtensionManager_" class="expander" data-toggle="collapse">RegisterExtensionManager(WorkflowInstanceExtensionManager)</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_System_Activities_Hosting_WorkflowInstanceExtensionManager_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void RegisterExtensionManager(WorkflowInstanceExtensionManager extensionManager)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Hosting.WorkflowInstanceExtensionManager.html">WorkflowInstanceExtensionManager</a></td>
-        <td><span class="parametername">extensionManager</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Hosting.WorkflowInstanceExtensionManager.html">WorkflowInstanceExtensionManager</a></span>
+        <span class="parametername">extensionManager</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly_" data-uid="System.Activities.Hosting.WorkflowInstance.ThrowIfReadOnly*"></a>
-  <h4 id="System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly" data-uid="System.Activities.Hosting.WorkflowInstance.ThrowIfReadOnly">ThrowIfReadOnly()</h4>
+  
+  <h4 id="System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly" data-uid="System.Activities.Hosting.WorkflowInstance.ThrowIfReadOnly"><a href="#collapsible-System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly" class="expander" data-toggle="collapse">ThrowIfReadOnly()</a></h4>
+  
+  <div id="collapsible-System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void ThrowIfReadOnly()</code></pre>
   </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

@@ -69,16 +69,17 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.Tracking.TrackingRecord">
-  
-  
-  <h1 id="System_Activities_Tracking_TrackingRecord" data-uid="System.Activities.Tracking.TrackingRecord" class="text-break">Class TrackingRecord
+  <h1 id="System_Activities_Tracking_TrackingRecord" data-uid="System.Activities.Tracking.TrackingRecord">Class TrackingRecord
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">TrackingRecord</span></div>
+  </div>
+  
       <div class="level2"><a class="xref" href="System.Activities.Tracking.ActivityScheduledRecord.html">ActivityScheduledRecord</a></div>
       <div class="level2"><a class="xref" href="System.Activities.Tracking.ActivityStateRecord.html">ActivityStateRecord</a></div>
       <div class="level2"><a class="xref" href="System.Activities.Tracking.BookmarkResumptionRecord.html">BookmarkResumptionRecord</a></div>
@@ -86,316 +87,442 @@
       <div class="level2"><a class="xref" href="System.Activities.Tracking.CustomTrackingRecord.html">CustomTrackingRecord</a></div>
       <div class="level2"><a class="xref" href="System.Activities.Tracking.FaultPropagationRecord.html">FaultPropagationRecord</a></div>
       <div class="level2"><a class="xref" href="System.Activities.Tracking.WorkflowInstanceRecord.html">WorkflowInstanceRecord</a></div>
-  </div>
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.Tracking.html">System.Activities.Tracking</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_Tracking_TrackingRecord_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class TrackingRecord : Object</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_Tracking_TrackingRecord__ctor_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Activities_Tracking_TrackingRecord_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Activities.Tracking.TrackingRecord)">TrackingRecord(TrackingRecord)</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Activities_Tracking_TrackingRecord_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Activities.Tracking.TrackingRecord)"><a href="#collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Activities_Tracking_TrackingRecord_" class="expander" data-toggle="collapse">TrackingRecord(TrackingRecord)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Activities_Tracking_TrackingRecord_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected TrackingRecord(TrackingRecord record)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a></td>
-        <td><span class="parametername">record</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a></span>
+        <span class="parametername">record</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Tracking_TrackingRecord__ctor_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Guid_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Guid)">TrackingRecord(Guid)</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Guid_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Guid)"><a href="#collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Guid_" class="expander" data-toggle="collapse">TrackingRecord(Guid)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Guid_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected TrackingRecord(Guid instanceId)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord__ctor_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Guid_System_Int64_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Guid,System.Int64)">TrackingRecord(Guid, Int64)</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord__ctor_System_Guid_System_Int64_" data-uid="System.Activities.Tracking.TrackingRecord.#ctor(System.Guid,System.Int64)"><a href="#collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Guid_System_Int64_" class="expander" data-toggle="collapse">TrackingRecord(Guid, Int64)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord__ctor_System_Guid_System_Int64_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected TrackingRecord(Guid instanceId, long recordNumber)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">recordNumber</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int64</span></span>
+        <span class="parametername">recordNumber</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_Annotations_" data-uid="System.Activities.Tracking.TrackingRecord.Annotations*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_Annotations" data-uid="System.Activities.Tracking.TrackingRecord.Annotations">Annotations</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_Annotations" data-uid="System.Activities.Tracking.TrackingRecord.Annotations"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_Annotations" class="expander" data-toggle="collapse">Annotations</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_Annotations" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public IDictionary&lt;string, string&gt; Annotations { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_EventTime_" data-uid="System.Activities.Tracking.TrackingRecord.EventTime*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_EventTime" data-uid="System.Activities.Tracking.TrackingRecord.EventTime">EventTime</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_EventTime" data-uid="System.Activities.Tracking.TrackingRecord.EventTime"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_EventTime" class="expander" data-toggle="collapse">EventTime</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_EventTime" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DateTime EventTime { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.DateTime</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_HasAnnotations_" data-uid="System.Activities.Tracking.TrackingRecord.HasAnnotations*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_HasAnnotations" data-uid="System.Activities.Tracking.TrackingRecord.HasAnnotations">HasAnnotations</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_HasAnnotations" data-uid="System.Activities.Tracking.TrackingRecord.HasAnnotations"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_HasAnnotations" class="expander" data-toggle="collapse">HasAnnotations</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_HasAnnotations" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool HasAnnotations { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_InstanceId_" data-uid="System.Activities.Tracking.TrackingRecord.InstanceId*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_InstanceId" data-uid="System.Activities.Tracking.TrackingRecord.InstanceId">InstanceId</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_InstanceId" data-uid="System.Activities.Tracking.TrackingRecord.InstanceId"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_InstanceId" class="expander" data-toggle="collapse">InstanceId</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_InstanceId" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Guid InstanceId { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Guid</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_Level_" data-uid="System.Activities.Tracking.TrackingRecord.Level*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_Level" data-uid="System.Activities.Tracking.TrackingRecord.Level">Level</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_Level" data-uid="System.Activities.Tracking.TrackingRecord.Level"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_Level" class="expander" data-toggle="collapse">Level</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_Level" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public EventLevel Level { get; protected set; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Diagnostics.Tracing.EventLevel</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Diagnostics.Tracing.EventLevel</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_RecordNumber_" data-uid="System.Activities.Tracking.TrackingRecord.RecordNumber*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_RecordNumber" data-uid="System.Activities.Tracking.TrackingRecord.RecordNumber">RecordNumber</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_RecordNumber" data-uid="System.Activities.Tracking.TrackingRecord.RecordNumber"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_RecordNumber" class="expander" data-toggle="collapse">RecordNumber</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_RecordNumber" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public long RecordNumber { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Int64</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_Clone_" data-uid="System.Activities.Tracking.TrackingRecord.Clone*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_Clone" data-uid="System.Activities.Tracking.TrackingRecord.Clone">Clone()</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_Clone" data-uid="System.Activities.Tracking.TrackingRecord.Clone"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_Clone" class="expander" data-toggle="collapse">Clone()</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_Clone" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected abstract TrackingRecord Clone()</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_TrackingRecord_ToString_" data-uid="System.Activities.Tracking.TrackingRecord.ToString*"></a>
-  <h4 id="System_Activities_Tracking_TrackingRecord_ToString" data-uid="System.Activities.Tracking.TrackingRecord.ToString">ToString()</h4>
+  
+  <h4 id="System_Activities_Tracking_TrackingRecord_ToString" data-uid="System.Activities.Tracking.TrackingRecord.ToString"><a href="#collapsible-System_Activities_Tracking_TrackingRecord_ToString" class="expander" data-toggle="collapse">ToString()</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_TrackingRecord_ToString" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

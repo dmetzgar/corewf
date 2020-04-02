@@ -69,196 +69,251 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.FaultCallback">
-  
-  
-  <h1 id="System_Activities_FaultCallback" data-uid="System.Activities.FaultCallback" class="text-break">Class FaultCallback
+  <h1 id="System_Activities_FaultCallback" data-uid="System.Activities.FaultCallback">Class FaultCallback
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FaultCallback</span></div>
   </div>
+  
+  
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.html">System.Activities</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_FaultCallback_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class FaultCallback : MulticastDelegate</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_FaultCallback__ctor_" data-uid="System.Activities.FaultCallback.#ctor*"></a>
-  <h4 id="System_Activities_FaultCallback__ctor_System_Object_System_IntPtr_" data-uid="System.Activities.FaultCallback.#ctor(System.Object,System.IntPtr)">FaultCallback(Object, IntPtr)</h4>
+  
+  <h4 id="System_Activities_FaultCallback__ctor_System_Object_System_IntPtr_" data-uid="System.Activities.FaultCallback.#ctor(System.Object,System.IntPtr)"><a href="#collapsible-System_Activities_FaultCallback__ctor_System_Object_System_IntPtr_" class="expander" data-toggle="collapse">FaultCallback(Object, IntPtr)</a></h4>
+  
+  <div id="collapsible-System_Activities_FaultCallback__ctor_System_Object_System_IntPtr_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public FaultCallback(object object, IntPtr method)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">object</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IntPtr</span></td>
-        <td><span class="parametername">method</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">object</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IntPtr</span></span>
+        <span class="parametername">method</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_FaultCallback_BeginInvoke_" data-uid="System.Activities.FaultCallback.BeginInvoke*"></a>
-  <h4 id="System_Activities_FaultCallback_BeginInvoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_System_AsyncCallback_System_Object_" data-uid="System.Activities.FaultCallback.BeginInvoke(System.Activities.NativeActivityFaultContext,System.Exception,System.Activities.ActivityInstance,System.AsyncCallback,System.Object)">BeginInvoke(NativeActivityFaultContext, Exception, ActivityInstance, AsyncCallback, Object)</h4>
+  
+  <h4 id="System_Activities_FaultCallback_BeginInvoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_System_AsyncCallback_System_Object_" data-uid="System.Activities.FaultCallback.BeginInvoke(System.Activities.NativeActivityFaultContext,System.Exception,System.Activities.ActivityInstance,System.AsyncCallback,System.Object)"><a href="#collapsible-System_Activities_FaultCallback_BeginInvoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_System_AsyncCallback_System_Object_" class="expander" data-toggle="collapse">BeginInvoke(NativeActivityFaultContext, Exception, ActivityInstance, AsyncCallback, Object)</a></h4>
+  
+  <div id="collapsible-System_Activities_FaultCallback_BeginInvoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_System_AsyncCallback_System_Object_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual IAsyncResult BeginInvoke(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom, AsyncCallback callback, object object)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.NativeActivityFaultContext.html">NativeActivityFaultContext</a></td>
-        <td><span class="parametername">faultContext</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">propagatedException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.ActivityInstance.html">ActivityInstance</a></td>
-        <td><span class="parametername">propagatedFrom</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.AsyncCallback</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">object</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.NativeActivityFaultContext.html">NativeActivityFaultContext</a></span>
+        <span class="parametername">faultContext</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Exception</span></span>
+        <span class="parametername">propagatedException</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.ActivityInstance.html">ActivityInstance</a></span>
+        <span class="parametername">propagatedFrom</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.AsyncCallback</span></span>
+        <span class="parametername">callback</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Object</span></span>
+        <span class="parametername">object</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.IAsyncResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_FaultCallback_EndInvoke_" data-uid="System.Activities.FaultCallback.EndInvoke*"></a>
-  <h4 id="System_Activities_FaultCallback_EndInvoke_System_IAsyncResult_" data-uid="System.Activities.FaultCallback.EndInvoke(System.IAsyncResult)">EndInvoke(IAsyncResult)</h4>
+  
+  <h4 id="System_Activities_FaultCallback_EndInvoke_System_IAsyncResult_" data-uid="System.Activities.FaultCallback.EndInvoke(System.IAsyncResult)"><a href="#collapsible-System_Activities_FaultCallback_EndInvoke_System_IAsyncResult_" class="expander" data-toggle="collapse">EndInvoke(IAsyncResult)</a></h4>
+  
+  <div id="collapsible-System_Activities_FaultCallback_EndInvoke_System_IAsyncResult_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual void EndInvoke(IAsyncResult result)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.IAsyncResult</span></td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.IAsyncResult</span></span>
+        <span class="parametername">result</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_FaultCallback_Invoke_" data-uid="System.Activities.FaultCallback.Invoke*"></a>
-  <h4 id="System_Activities_FaultCallback_Invoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_" data-uid="System.Activities.FaultCallback.Invoke(System.Activities.NativeActivityFaultContext,System.Exception,System.Activities.ActivityInstance)">Invoke(NativeActivityFaultContext, Exception, ActivityInstance)</h4>
+  
+  <h4 id="System_Activities_FaultCallback_Invoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_" data-uid="System.Activities.FaultCallback.Invoke(System.Activities.NativeActivityFaultContext,System.Exception,System.Activities.ActivityInstance)"><a href="#collapsible-System_Activities_FaultCallback_Invoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_" class="expander" data-toggle="collapse">Invoke(NativeActivityFaultContext, Exception, ActivityInstance)</a></h4>
+  
+  <div id="collapsible-System_Activities_FaultCallback_Invoke_System_Activities_NativeActivityFaultContext_System_Exception_System_Activities_ActivityInstance_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual void Invoke(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.NativeActivityFaultContext.html">NativeActivityFaultContext</a></td>
-        <td><span class="parametername">faultContext</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">propagatedException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.ActivityInstance.html">ActivityInstance</a></td>
-        <td><span class="parametername">propagatedFrom</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.NativeActivityFaultContext.html">NativeActivityFaultContext</a></span>
+        <span class="parametername">faultContext</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Exception</span></span>
+        <span class="parametername">propagatedException</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.ActivityInstance.html">ActivityInstance</a></span>
+        <span class="parametername">propagatedFrom</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

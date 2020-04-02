@@ -69,12 +69,11 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.Expressions.LambdaValue`1">
-  
-  
-  <h1 id="System_Activities_Expressions_LambdaValue_1" data-uid="System.Activities.Expressions.LambdaValue`1" class="text-break">Class LambdaValue&lt;TResult&gt;
+  <h1 id="System_Activities_Expressions_LambdaValue_1" data-uid="System.Activities.Expressions.LambdaValue`1">Class LambdaValue&lt;TResult&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -84,10 +83,8 @@
     <div class="level4"><a class="xref" href="System.Activities.CodeActivity-1.html">CodeActivity</a>&lt;TResult&gt;</div>
     <div class="level5"><span class="xref">LambdaValue&lt;TResult&gt;</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="System.Activities.XamlIntegration.IValueSerializableExpression.html">IValueSerializableExpression</a></div>
-  </div>
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -133,230 +130,262 @@
       <a class="xref" href="System.Activities.Activity.html#System_Activities_Activity_Id">Activity.Id</a>
     </div>
   </div>
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.Expressions.html">System.Activities.Expressions</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_Expressions_LambdaValue_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class LambdaValue&lt;TResult&gt; : CodeActivity&lt;TResult&gt;, IExpressionContainer, IValueSerializableExpression</code></pre>
   </div>
+  
+  
+  
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_Expressions_LambdaValue_1__ctor_" data-uid="System.Activities.Expressions.LambdaValue`1.#ctor*"></a>
-  <h4 id="System_Activities_Expressions_LambdaValue_1__ctor_System_Linq_Expressions_Expression_System_Func_System_Activities_ActivityContext__0___" data-uid="System.Activities.Expressions.LambdaValue`1.#ctor(System.Linq.Expressions.Expression{System.Func{System.Activities.ActivityContext,`0}})">LambdaValue(Expression&lt;Func&lt;ActivityContext, TResult&gt;&gt;)</h4>
+  
+  <h4 id="System_Activities_Expressions_LambdaValue_1__ctor_System_Linq_Expressions_Expression_System_Func_System_Activities_ActivityContext__0___" data-uid="System.Activities.Expressions.LambdaValue`1.#ctor(System.Linq.Expressions.Expression{System.Func{System.Activities.ActivityContext,`0}})"><a href="#collapsible-System_Activities_Expressions_LambdaValue_1__ctor_System_Linq_Expressions_Expression_System_Func_System_Activities_ActivityContext__0___" class="expander" data-toggle="collapse">LambdaValue(Expression&lt;Func&lt;ActivityContext, TResult&gt;&gt;)</a></h4>
+  
+  <div id="collapsible-System_Activities_Expressions_LambdaValue_1__ctor_System_Linq_Expressions_Expression_System_Func_System_Activities_ActivityContext__0___" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public LambdaValue(Expression&lt;Func&lt;ActivityContext, TResult&gt;&gt; lambdaValue)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;<a class="xref" href="System.Activities.ActivityContext.html">ActivityContext</a>, TResult&gt;&gt;</td>
-        <td><span class="parametername">lambdaValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;<a class="xref" href="System.Activities.ActivityContext.html">ActivityContext</a>, TResult&gt;&gt;</span>
+        <span class="parametername">lambdaValue</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_Expressions_LambdaValue_1_CacheMetadata_" data-uid="System.Activities.Expressions.LambdaValue`1.CacheMetadata*"></a>
-  <h4 id="System_Activities_Expressions_LambdaValue_1_CacheMetadata_System_Activities_CodeActivityMetadata_" data-uid="System.Activities.Expressions.LambdaValue`1.CacheMetadata(System.Activities.CodeActivityMetadata)">CacheMetadata(CodeActivityMetadata)</h4>
+  
+  <h4 id="System_Activities_Expressions_LambdaValue_1_CacheMetadata_System_Activities_CodeActivityMetadata_" data-uid="System.Activities.Expressions.LambdaValue`1.CacheMetadata(System.Activities.CodeActivityMetadata)"><a href="#collapsible-System_Activities_Expressions_LambdaValue_1_CacheMetadata_System_Activities_CodeActivityMetadata_" class="expander" data-toggle="collapse">CacheMetadata(CodeActivityMetadata)</a></h4>
+  
+  <div id="collapsible-System_Activities_Expressions_LambdaValue_1_CacheMetadata_System_Activities_CodeActivityMetadata_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void CacheMetadata(CodeActivityMetadata metadata)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.CodeActivityMetadata.html">CodeActivityMetadata</a></td>
-        <td><span class="parametername">metadata</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.CodeActivityMetadata.html">CodeActivityMetadata</a></span>
+        <span class="parametername">metadata</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Activities.CodeActivity&lt;TResult&gt;.CacheMetadata(System.Activities.CodeActivityMetadata)</span></div>
   
   
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Expressions_LambdaValue_1_CanConvertToString_" data-uid="System.Activities.Expressions.LambdaValue`1.CanConvertToString*"></a>
-  <h4 id="System_Activities_Expressions_LambdaValue_1_CanConvertToString_System_Windows_Markup_IValueSerializerContext_" data-uid="System.Activities.Expressions.LambdaValue`1.CanConvertToString(System.Windows.Markup.IValueSerializerContext)">CanConvertToString(IValueSerializerContext)</h4>
+  
+  <h4 id="System_Activities_Expressions_LambdaValue_1_CanConvertToString_System_Windows_Markup_IValueSerializerContext_" data-uid="System.Activities.Expressions.LambdaValue`1.CanConvertToString(System.Windows.Markup.IValueSerializerContext)"><a href="#collapsible-System_Activities_Expressions_LambdaValue_1_CanConvertToString_System_Windows_Markup_IValueSerializerContext_" class="expander" data-toggle="collapse">CanConvertToString(IValueSerializerContext)</a></h4>
+  
+  <div id="collapsible-System_Activities_Expressions_LambdaValue_1_CanConvertToString_System_Windows_Markup_IValueSerializerContext_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool CanConvertToString(IValueSerializerContext context)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Windows.Markup.IValueSerializerContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Windows.Markup.IValueSerializerContext</span></span>
+        <span class="parametername">context</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Boolean</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="System.Activities.XamlIntegration.IValueSerializableExpression.html#System_Activities_XamlIntegration_IValueSerializableExpression_CanConvertToString_System_Windows_Markup_IValueSerializerContext_">IValueSerializableExpression.CanConvertToString(IValueSerializerContext)</a></div>
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Expressions_LambdaValue_1_ConvertToString_" data-uid="System.Activities.Expressions.LambdaValue`1.ConvertToString*"></a>
-  <h4 id="System_Activities_Expressions_LambdaValue_1_ConvertToString_System_Windows_Markup_IValueSerializerContext_" data-uid="System.Activities.Expressions.LambdaValue`1.ConvertToString(System.Windows.Markup.IValueSerializerContext)">ConvertToString(IValueSerializerContext)</h4>
+  
+  <h4 id="System_Activities_Expressions_LambdaValue_1_ConvertToString_System_Windows_Markup_IValueSerializerContext_" data-uid="System.Activities.Expressions.LambdaValue`1.ConvertToString(System.Windows.Markup.IValueSerializerContext)"><a href="#collapsible-System_Activities_Expressions_LambdaValue_1_ConvertToString_System_Windows_Markup_IValueSerializerContext_" class="expander" data-toggle="collapse">ConvertToString(IValueSerializerContext)</a></h4>
+  
+  <div id="collapsible-System_Activities_Expressions_LambdaValue_1_ConvertToString_System_Windows_Markup_IValueSerializerContext_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string ConvertToString(IValueSerializerContext context)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Windows.Markup.IValueSerializerContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Windows.Markup.IValueSerializerContext</span></span>
+        <span class="parametername">context</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="System.Activities.XamlIntegration.IValueSerializableExpression.html#System_Activities_XamlIntegration_IValueSerializableExpression_ConvertToString_System_Windows_Markup_IValueSerializerContext_">IValueSerializableExpression.ConvertToString(IValueSerializerContext)</a></div>
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Expressions_LambdaValue_1_Execute_" data-uid="System.Activities.Expressions.LambdaValue`1.Execute*"></a>
-  <h4 id="System_Activities_Expressions_LambdaValue_1_Execute_System_Activities_CodeActivityContext_" data-uid="System.Activities.Expressions.LambdaValue`1.Execute(System.Activities.CodeActivityContext)">Execute(CodeActivityContext)</h4>
+  
+  <h4 id="System_Activities_Expressions_LambdaValue_1_Execute_System_Activities_CodeActivityContext_" data-uid="System.Activities.Expressions.LambdaValue`1.Execute(System.Activities.CodeActivityContext)"><a href="#collapsible-System_Activities_Expressions_LambdaValue_1_Execute_System_Activities_CodeActivityContext_" class="expander" data-toggle="collapse">Execute(CodeActivityContext)</a></h4>
+  
+  <div id="collapsible-System_Activities_Expressions_LambdaValue_1_Execute_System_Activities_CodeActivityContext_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override TResult Execute(CodeActivityContext context)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.CodeActivityContext.html">CodeActivityContext</a></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.CodeActivityContext.html">CodeActivityContext</a></span>
+        <span class="parametername">context</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TResult</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TResult</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.Activities.CodeActivity&lt;TResult&gt;.Execute(System.Activities.CodeActivityContext)</span></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="System.Activities.XamlIntegration.IValueSerializableExpression.html">IValueSerializableExpression</a>
+  
+  
+  
+  
+  
   </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

@@ -69,12 +69,11 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord">
-  
-  
-  <h1 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord" class="text-break">Class WorkflowInstanceTerminatedRecord
+  <h1 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord">Class WorkflowInstanceTerminatedRecord
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -82,6 +81,8 @@
     <div class="level2"><a class="xref" href="System.Activities.Tracking.WorkflowInstanceRecord.html">WorkflowInstanceRecord</a></div>
     <div class="level3"><span class="xref">WorkflowInstanceTerminatedRecord</span></div>
   </div>
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -112,276 +113,379 @@
       <a class="xref" href="System.Activities.Tracking.TrackingRecord.html#System_Activities_Tracking_TrackingRecord_HasAnnotations">TrackingRecord.HasAnnotations</a>
     </div>
   </div>
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.Tracking.html">System.Activities.Tracking</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class WorkflowInstanceTerminatedRecord : WorkflowInstanceRecord</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.Int64,System.String,System.String)">WorkflowInstanceTerminatedRecord(Guid, Int64, String, String)</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.Int64,System.String,System.String)"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_" class="expander" data-toggle="collapse">WorkflowInstanceTerminatedRecord(Guid, Int64, String, String)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public WorkflowInstanceTerminatedRecord(Guid instanceId, long recordNumber, string activityDefinitionId, string reason)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">recordNumber</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">activityDefinitionId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int64</span></span>
+        <span class="parametername">recordNumber</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">activityDefinitionId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">reason</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.Int64,System.String,System.String,System.Activities.WorkflowIdentity)">WorkflowInstanceTerminatedRecord(Guid, Int64, String, String, WorkflowIdentity)</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.Int64,System.String,System.String,System.Activities.WorkflowIdentity)"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_System_Activities_WorkflowIdentity_" class="expander" data-toggle="collapse">WorkflowInstanceTerminatedRecord(Guid, Int64, String, String, WorkflowIdentity)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_Int64_System_String_System_String_System_Activities_WorkflowIdentity_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public WorkflowInstanceTerminatedRecord(Guid instanceId, long recordNumber, string activityDefinitionId, string reason, WorkflowIdentity workflowDefinitionIdentity)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">recordNumber</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">activityDefinitionId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
-        <td><span class="parametername">workflowDefinitionIdentity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Int64</span></span>
+        <span class="parametername">recordNumber</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">activityDefinitionId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">reason</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></span>
+        <span class="parametername">workflowDefinitionIdentity</span>
+        <p>
+      </td>
+    </tr>
   </table>
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.String,System.String)">WorkflowInstanceTerminatedRecord(Guid, String, String)</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.String,System.String)"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_" class="expander" data-toggle="collapse">WorkflowInstanceTerminatedRecord(Guid, String, String)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public WorkflowInstanceTerminatedRecord(Guid instanceId, string activityDefinitionId, string reason)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">activityDefinitionId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">activityDefinitionId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">reason</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.String,System.String,System.Activities.WorkflowIdentity)">WorkflowInstanceTerminatedRecord(Guid, String, String, WorkflowIdentity)</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_System_Activities_WorkflowIdentity_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.#ctor(System.Guid,System.String,System.String,System.Activities.WorkflowIdentity)"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_System_Activities_WorkflowIdentity_" class="expander" data-toggle="collapse">WorkflowInstanceTerminatedRecord(Guid, String, String, WorkflowIdentity)</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord__ctor_System_Guid_System_String_System_String_System_Activities_WorkflowIdentity_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public WorkflowInstanceTerminatedRecord(Guid instanceId, string activityDefinitionId, string reason, WorkflowIdentity workflowDefinitionIdentity)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Guid</span></td>
-        <td><span class="parametername">instanceId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">activityDefinitionId</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
-        <td><span class="parametername">workflowDefinitionIdentity</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Guid</span></span>
+        <span class="parametername">instanceId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">activityDefinitionId</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">reason</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></span>
+        <span class="parametername">workflowDefinitionIdentity</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Reason_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Reason*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Reason" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Reason">Reason</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Reason" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Reason"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Reason" class="expander" data-toggle="collapse">Reason</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Reason" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Reason { get; }</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Clone_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Clone*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Clone" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Clone">Clone()</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Clone" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.Clone"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Clone" class="expander" data-toggle="collapse">Clone()</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_Clone" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override TrackingRecord Clone()</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="System.Activities.Tracking.TrackingRecord.html">TrackingRecord</a>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="System.Activities.Tracking.WorkflowInstanceRecord.html#System_Activities_Tracking_WorkflowInstanceRecord_Clone">WorkflowInstanceRecord.Clone()</a></div>
   
   
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_ToString_" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.ToString*"></a>
-  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_ToString" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.ToString">ToString()</h4>
+  
+  <h4 id="System_Activities_Tracking_WorkflowInstanceTerminatedRecord_ToString" data-uid="System.Activities.Tracking.WorkflowInstanceTerminatedRecord.ToString"><a href="#collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_ToString" class="expander" data-toggle="collapse">ToString()</a></h4>
+  
+  <div id="collapsible-System_Activities_Tracking_WorkflowInstanceTerminatedRecord_ToString" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.String</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="System.Activities.Tracking.WorkflowInstanceRecord.html#System_Activities_Tracking_WorkflowInstanceRecord_ToString">WorkflowInstanceRecord.ToString()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

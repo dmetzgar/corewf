@@ -69,180 +69,243 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="System.Activities.Statements.CompensationExtension">
-  
-  
-  <h1 id="System_Activities_Statements_CompensationExtension" data-uid="System.Activities.Statements.CompensationExtension" class="text-break">Class CompensationExtension
+  <h1 id="System_Activities_Statements_CompensationExtension" data-uid="System.Activities.Statements.CompensationExtension">Class CompensationExtension
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="System.Activities.Persistence.PersistenceParticipant.html">PersistenceParticipant</a></div>
     <div class="level2"><span class="xref">CompensationExtension</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="System.Activities.Hosting.IWorkflowInstanceExtension.html">IWorkflowInstanceExtension</a></div>
-  </div>
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="System.Activities.Persistence.PersistenceParticipant.html#System_Activities_Persistence_PersistenceParticipant_MapValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__">PersistenceParticipant.MapValues(IDictionary&lt;XName, Object&gt;, IDictionary&lt;XName, Object&gt;)</a>
     </div>
   </div>
+  
   <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.Statements.html">System.Activities.Statements</a></h6>
   <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  
   <h5 id="System_Activities_Statements_CompensationExtension_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class CompensationExtension : PersistenceParticipant, IPersistencePipelineModule, IWorkflowInstanceExtension</code></pre>
   </div>
+  
+  
+  
+  
+  
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="System_Activities_Statements_CompensationExtension__ctor_" data-uid="System.Activities.Statements.CompensationExtension.#ctor*"></a>
-  <h4 id="System_Activities_Statements_CompensationExtension__ctor" data-uid="System.Activities.Statements.CompensationExtension.#ctor">CompensationExtension()</h4>
+  
+  <h4 id="System_Activities_Statements_CompensationExtension__ctor" data-uid="System.Activities.Statements.CompensationExtension.#ctor"><a href="#collapsible-System_Activities_Statements_CompensationExtension__ctor" class="expander" data-toggle="collapse">CompensationExtension()</a></h4>
+  
+  <div id="collapsible-System_Activities_Statements_CompensationExtension__ctor" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public CompensationExtension()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="System_Activities_Statements_CompensationExtension_CollectValues_" data-uid="System.Activities.Statements.CompensationExtension.CollectValues*"></a>
-  <h4 id="System_Activities_Statements_CompensationExtension_CollectValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___" data-uid="System.Activities.Statements.CompensationExtension.CollectValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object}@,System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object}@)">CollectValues(out IDictionary&lt;XName, Object&gt;, out IDictionary&lt;XName, Object&gt;)</h4>
+  
+  <h4 id="System_Activities_Statements_CompensationExtension_CollectValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___" data-uid="System.Activities.Statements.CompensationExtension.CollectValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object}@,System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object}@)"><a href="#collapsible-System_Activities_Statements_CompensationExtension_CollectValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___" class="expander" data-toggle="collapse">CollectValues(out IDictionary&lt;XName, Object&gt;, out IDictionary&lt;XName, Object&gt;)</a></h4>
+  
+  <div id="collapsible-System_Activities_Statements_CompensationExtension_CollectValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void CollectValues(out IDictionary&lt;XName, object&gt; readWriteValues, out IDictionary&lt;XName, object&gt; writeOnlyValues)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">readWriteValues</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">writeOnlyValues</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</span>
+        <span class="parametername">readWriteValues</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</span>
+        <span class="parametername">writeOnlyValues</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="System.Activities.Persistence.PersistenceParticipant.html#System_Activities_Persistence_PersistenceParticipant_CollectValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object___">PersistenceParticipant.CollectValues(out IDictionary&lt;XName, Object&gt;, out IDictionary&lt;XName, Object&gt;)</a></div>
   
   
+  
+  
+  
+  </div>
+  
+  
   <a id="System_Activities_Statements_CompensationExtension_PublishValues_" data-uid="System.Activities.Statements.CompensationExtension.PublishValues*"></a>
-  <h4 id="System_Activities_Statements_CompensationExtension_PublishValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__" data-uid="System.Activities.Statements.CompensationExtension.PublishValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object})">PublishValues(IDictionary&lt;XName, Object&gt;)</h4>
+  
+  <h4 id="System_Activities_Statements_CompensationExtension_PublishValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__" data-uid="System.Activities.Statements.CompensationExtension.PublishValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object})"><a href="#collapsible-System_Activities_Statements_CompensationExtension_PublishValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__" class="expander" data-toggle="collapse">PublishValues(IDictionary&lt;XName, Object&gt;)</a></h4>
+  
+  <div id="collapsible-System_Activities_Statements_CompensationExtension_PublishValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void PublishValues(IDictionary&lt;XName, object&gt; readWriteValues)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">readWriteValues</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</span>
+        <span class="parametername">readWriteValues</span>
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="System.Activities.Persistence.PersistenceParticipant.html#System_Activities_Persistence_PersistenceParticipant_PublishValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__">PersistenceParticipant.PublishValues(IDictionary&lt;XName, Object&gt;)</a></div>
+  
+  
+  
+  
+  
+  </div>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   
   
   <a id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions_" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#GetAdditionalExtensions*"></a>
-  <h4 id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#GetAdditionalExtensions">IWorkflowInstanceExtension.GetAdditionalExtensions()</h4>
+  
+  <h4 id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#GetAdditionalExtensions"><a href="#collapsible-System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions" class="expander" data-toggle="collapse">IWorkflowInstanceExtension.GetAdditionalExtensions()</a></h4>
+  
+  <div id="collapsible-System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">IEnumerable&lt;object&gt; IWorkflowInstanceExtension.GetAdditionalExtensions()</code></pre>
   </div>
+  
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Object</span>&gt;
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="System.Activities.Hosting.IWorkflowInstanceExtension.html#System_Activities_Hosting_IWorkflowInstanceExtension_GetAdditionalExtensions">IWorkflowInstanceExtension.GetAdditionalExtensions()</a></div>
+  
+  
+  
+  
+  </div>
   
   
   <a id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#SetInstance*"></a>
-  <h4 id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_System_Activities_Hosting_WorkflowInstanceProxy_" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#SetInstance(System.Activities.Hosting.WorkflowInstanceProxy)">IWorkflowInstanceExtension.SetInstance(WorkflowInstanceProxy)</h4>
+  
+  <h4 id="System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_System_Activities_Hosting_WorkflowInstanceProxy_" data-uid="System.Activities.Statements.CompensationExtension.System#Activities#Hosting#IWorkflowInstanceExtension#SetInstance(System.Activities.Hosting.WorkflowInstanceProxy)"><a href="#collapsible-System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_System_Activities_Hosting_WorkflowInstanceProxy_" class="expander" data-toggle="collapse">IWorkflowInstanceExtension.SetInstance(WorkflowInstanceProxy)</a></h4>
+  
+  <div id="collapsible-System_Activities_Statements_CompensationExtension_System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_System_Activities_Hosting_WorkflowInstanceProxy_" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+  
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void IWorkflowInstanceExtension.SetInstance(WorkflowInstanceProxy instance)</code></pre>
   </div>
+  
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="System.Activities.Hosting.WorkflowInstanceProxy.html">WorkflowInstanceProxy</a></td>
-        <td><span class="parametername">instance</span></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="System.Activities.Hosting.WorkflowInstanceProxy.html">WorkflowInstanceProxy</a></span>
+        <span class="parametername">instance</span>
+        <p>
+      </td>
+    </tr>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="System.Activities.Hosting.IWorkflowInstanceExtension.html">IWorkflowInstanceExtension</a>
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="System.Activities.Hosting.IWorkflowInstanceExtension.html#System_Activities_Hosting_IWorkflowInstanceExtension_SetInstance_System_Activities_Hosting_WorkflowInstanceProxy_">IWorkflowInstanceExtension.SetInstance(WorkflowInstanceProxy)</a></div>
+  
+  
+  
+  
   </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>
