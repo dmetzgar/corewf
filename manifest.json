@@ -1,0 +1,4626 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/dev/dmetzgar/corewf/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Activity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Activity-1.html",
+          "hash": "nPNEzayt9bl5QZxoBrGxqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Activity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Activity.html",
+          "hash": "ruNvOraA9ARqrY1rGA8aZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-1.html",
+          "hash": "IzJfcJ0OcIUR5ll26CxIfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-10.html",
+          "hash": "xrBrVBhLXFgM4ggf36s0zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-11.html",
+          "hash": "csJtR8Je/O36eMBVUvrY6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-12.html",
+          "hash": "7qcb7ogNB/icHwRV/eLx0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-13.html",
+          "hash": "YMKRVFHODMXeyKFOiNIGHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-14.html",
+          "hash": "Y3wTpL3K5MGZP3Xnp+4imQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-15.html",
+          "hash": "x5ZguIV+ZKpxO/Q9gY8ohw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-16.html",
+          "hash": "6V+/iN9kY79Mh8YAXTeiaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-2.html",
+          "hash": "yXIu4YEw3e8nMy+C9WUNmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-3.html",
+          "hash": "35FfOxgUEuErGTM8JzRWmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-4.html",
+          "hash": "ZgZeA7mI/OrqhZzlIcyC+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-5.html",
+          "hash": "m3cLRhP8ujAv1ab1AJYTzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-6.html",
+          "hash": "3feV5bV/YkSoVhiqXhQ/tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-7.html",
+          "hash": "Dkr1oJOA4bDzREDBbtQu2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-8.html",
+          "hash": "QGvMcdWtWDuUVom5YbM5HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction-9.html",
+          "hash": "xkGL0jsknnWgHa0xK9lYtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityAction.html",
+          "hash": "eDJ0DUBFQDwjM3CAUXAFgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityContext.html",
+          "hash": "HShwyOedrLgkHgXyNLZTIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityDelegate.html",
+          "hash": "W9FPAq+IPjC1vd29OJO+0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-1.html",
+          "hash": "4K78xZFr9vpCWyiyi0ErLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-10.html",
+          "hash": "c5jirm72rjS2+GGNg4BEdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-11.html",
+          "hash": "wYju4phz1XX3P5mGw6kmNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-12.html",
+          "hash": "/hBfKM6gnMWx02IcO3nJnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-13.html",
+          "hash": "k56Oh70bUsXkkosx2X5oAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-14.html",
+          "hash": "p9XM9yVEqLFi/zMilOKbrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-15.html",
+          "hash": "5MMWp3eN/NhOmHfm4h6hjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-16.html",
+          "hash": "X3bC7xx9B80E4buBwRTFzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-17.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-17.html",
+          "hash": "LBdQoA739KzBimerV544qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-2.html",
+          "hash": "oSKiyWVWqERZw8Ry9aXwZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-3.html",
+          "hash": "eSm4IjK5bCAZewQzadF0Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-4.html",
+          "hash": "kPSiVl8vv+ETCJzPsdEYbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-5.html",
+          "hash": "auzRSjc8NxuE5TF2o9ExPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-6.html",
+          "hash": "DQRv6XIPzrAJGtilFjVm4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-7.html",
+          "hash": "wzg15+PAMZHmu7HLGWHN/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-8.html",
+          "hash": "OCcaMpxY3ELk9/Oe1rDkdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityFunc-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityFunc-9.html",
+          "hash": "5fh9zV4amRef+mDkeyGRQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityInstance.html",
+          "hash": "gZj2zcqsTb0Aph9id002uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityInstanceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityInstanceState.html",
+          "hash": "8KxiReT0LW1JfGQJNKKuhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityMetadata.html",
+          "hash": "aaXG5WRa5a974D5Dp7mw+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityPropertyReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityPropertyReference.html",
+          "hash": "rRFMS+vpVCQVFqE0CPnxTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ActivityWithResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ActivityWithResult.html",
+          "hash": "IcVJ76vTVHIX0Kx/+ETtfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Argument.html",
+          "hash": "el2cXUYxKJehSQZvL3zz7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ArgumentDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ArgumentDirection.html",
+          "hash": "YsCqAJgsD16fbKnRt37DjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.AsyncCodeActivity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.AsyncCodeActivity-1.html",
+          "hash": "LBz9uz5/5tputLojuq3MPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.AsyncCodeActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.AsyncCodeActivity.html",
+          "hash": "q7JySwc5soqr2ZxkQxzi0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.AsyncCodeActivityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.AsyncCodeActivityContext.html",
+          "hash": "m7vVmKtGN98WJrJIUJ7F4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Bookmark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Bookmark.html",
+          "hash": "dLqnQbPqUFNxK0Sk4PIsvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkCallback.html",
+          "hash": "rwyLZOgZANcTPVBxNhbXsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkConverter.html",
+          "hash": "JN5dKR/GHg344LYQNCbJ8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkOptions.html",
+          "hash": "+ZoKnt3iXBBQbTGF5EymMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkResumptionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkResumptionResult.html",
+          "hash": "7RfcNNlQZwkkaVahinRcEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkScope.html",
+          "hash": "Eo4Y4IqlB0dztmQ5sseg7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.BookmarkScopeHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.BookmarkScopeHandle.html",
+          "hash": "cHziW+0eTtIJaGKLLHZY4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CodeActivity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CodeActivity-1.html",
+          "hash": "AZpulYfShEmEmR2gV2dG0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CodeActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CodeActivity.html",
+          "hash": "7ZmfkQxqzKSozsrR9ZSqZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CodeActivityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CodeActivityContext.html",
+          "hash": "1v5r6GU1SI3qpJess3N8WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CodeActivityMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CodeActivityMetadata.html",
+          "hash": "8rA9qJnUx7gO8BA6n86AXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CodeActivityPublicEnvironmentAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CodeActivityPublicEnvironmentAccessor.html",
+          "hash": "5WKIylk/ExuF5dI2UZ7MiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CompletionCallback-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CompletionCallback-1.html",
+          "hash": "o2muIEinwnTGcv70G3Yeow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.CompletionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.CompletionCallback.html",
+          "hash": "ywbO1cOODMLjADNXO1+hVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateArgument.html",
+          "hash": "f5izeWcl42MkPS8jvf431w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateCompletionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateCompletionCallback.html",
+          "hash": "jTc4+tbRD4vCk6RSUFYm3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateInArgument-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateInArgument-1.html",
+          "hash": "K15kW/U/zlYUWD2nYGFQ+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateInArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateInArgument.html",
+          "hash": "61tOAuM7Kd8/QLOr3Tt8UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateOutArgument-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateOutArgument-1.html",
+          "hash": "m5NeoAHVxeQBKWu8n3tB3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DelegateOutArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DelegateOutArgument.html",
+          "hash": "c7lJ+JVN2JBN81y/G2MYcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.html",
+          "hash": "5Bl+coF785SeudHWq5s/0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.CreateWorkflowOwnerCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.CreateWorkflowOwnerCommand.html",
+          "hash": "wm/L7z+sBGgs/t36M5o7lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.CreateWorkflowOwnerWithIdentityCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.CreateWorkflowOwnerWithIdentityCommand.html",
+          "hash": "zDW/grQDAKOTTp4iQhU5SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.DeleteWorkflowOwnerCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.DeleteWorkflowOwnerCommand.html",
+          "hash": "WHomSEZ4RH9vqnvf+RCTjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.HasActivatableWorkflowEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.HasActivatableWorkflowEvent.html",
+          "hash": "ENNrL/LZGbc5jDA9Xq5ukw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.HasRunnableWorkflowEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.HasRunnableWorkflowEvent.html",
+          "hash": "Czc3KQKVr34bpH06F2nrAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.LoadWorkflowByInstanceKeyCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.LoadWorkflowByInstanceKeyCommand.html",
+          "hash": "TptTQUJnItOz1QrLL+NeaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.LoadWorkflowCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.LoadWorkflowCommand.html",
+          "hash": "+O62NMzbpUnIOPJAk2zD5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand.html",
+          "hash": "3tnDGbQn5MOwh5CD+k1N0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.SaveWorkflowCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.SaveWorkflowCommand.html",
+          "hash": "PGc4iRubUDO+NZCArDRZQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand.html",
+          "hash": "eQUhBRg83OZB45mucMKaxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DurableInstancing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DurableInstancing.html",
+          "hash": "3tGwmn2wBmLH6DvGo+WFGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DynamicActivity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DynamicActivity-1.html",
+          "hash": "VgXX+4YvyxITOTuX3LdO1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DynamicActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DynamicActivity.html",
+          "hash": "iVF7Xs6ymarg9hLnSlaJ4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.DynamicActivityProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.DynamicActivityProperty.html",
+          "hash": "9KX7/t7cBJMzjaCNhf1flQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ExceptionPersistenceExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ExceptionPersistenceExtension.html",
+          "hash": "0EXLxrxBeFQHas0SYjTltg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ExclusiveHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ExclusiveHandle.html",
+          "hash": "7yuv7GAU0ZNT6q4ggrsuzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ExecutionProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ExecutionProperties.html",
+          "hash": "bU1fwEFk7Pny830itrQa3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Add-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Add-3.html",
+          "hash": "N9t9pG47ymqzrEMK3/JGHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.And-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.And-3.html",
+          "hash": "fWyTgaOt4bEFNSjW9XJvZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.AndAlso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.AndAlso.html",
+          "hash": "MsA0t4YYcG7XYc2ikXybNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ArgumentReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ArgumentReference-1.html",
+          "hash": "R4hfE6+IUdKrSoihN+jZkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ArgumentValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ArgumentValue-1.html",
+          "hash": "xnOTmLi5OnBxddo9fqNfRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ArrayItemReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ArrayItemReference-1.html",
+          "hash": "C5HVyV659dLHK2z5xyrAPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ArrayItemValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ArrayItemValue-1.html",
+          "hash": "odBGBGeX1jIp/9O2qUQR5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.As-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.As-2.html",
+          "hash": "uiCps9hG5CibmV8onlAZ/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.AssemblyReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.AssemblyReference.html",
+          "hash": "rmHDDcNJX0y4T/L6xhXDjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Cast-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Cast-2.html",
+          "hash": "5IxiqGP261/PJZL7cZwW4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.CompiledExpressionInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.CompiledExpressionInvoker.html",
+          "hash": "6tiutXGByJgPu0uzB8KCpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.DelegateArgumentReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.DelegateArgumentReference-1.html",
+          "hash": "TxUQqvs3zGmJQJtqgYyM7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.DelegateArgumentValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.DelegateArgumentValue-1.html",
+          "hash": "ixQOUokP5LFp3iM8IyaWXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Divide-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Divide-3.html",
+          "hash": "bJa1jzQD+0wY740qtfJUnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.EnvironmentLocationReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.EnvironmentLocationReference-1.html",
+          "hash": "qAoR2YlH69ojzKxGyaPpAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.EnvironmentLocationValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.EnvironmentLocationValue-1.html",
+          "hash": "xpyAUNipnBqiwjq1cr/VrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Equal-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Equal-3.html",
+          "hash": "6ng6sfWzaiuONDmeWgraYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ExpressionServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ExpressionServices.html",
+          "hash": "9b8VG8WAvMd5rW+wCTn5iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.FieldReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.FieldReference-2.html",
+          "hash": "ts62EqCra5vKsQQEOi0m/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.FieldValue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.FieldValue-2.html",
+          "hash": "HqM98v20RsgMXjwbQzhUGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.GreaterThan-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.GreaterThan-3.html",
+          "hash": "Ie02CHNZus2iN52OTwfceQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.GreaterThanOrEqual-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.GreaterThanOrEqual-3.html",
+          "hash": "MlS++nxIhguRa2ZWCuxnYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ITextExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ITextExpression.html",
+          "hash": "SHCNmBxo/4QIHxTw340CFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.IndexerReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.IndexerReference-2.html",
+          "hash": "TOgIfFvEDetkF5JyBBVfsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-1.html",
+          "hash": "K3931b7RMOL7HfsfhpgZ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-10.html",
+          "hash": "IYDgYEwejNlYlARSL7NU0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-11.html",
+          "hash": "q9Wm1zx47eI9dK8kdO5XiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-12.html",
+          "hash": "0AS4tjEAa6vpqb2RwHrQrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-13.html",
+          "hash": "uGqP1kOKzpEmK3RA2ctYkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-14.html",
+          "hash": "qzxNj5ePhO1VRqfGZ+GXww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-15.html",
+          "hash": "kG2w0b4TADBh1e4KVHVMLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-16.html",
+          "hash": "ym/FYFWsUM8CaZtLoDlMmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-17.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-17.html",
+          "hash": "6uyOHTj9XabeUOzrZcR71Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-2.html",
+          "hash": "iQN6jr6R2JpXt9v2NKMPcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-3.html",
+          "hash": "XhVBQSJ7gWZkOfHtyoTfjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-4.html",
+          "hash": "7sbuUPtzPOb2An0UvuukbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-5.html",
+          "hash": "qVEb8VC8DYPW4Kcws8rjVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-6.html",
+          "hash": "lYHlFFyIVOfcci2/NbKZFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-7.html",
+          "hash": "gydjTIr26aTOgXQFkiPrOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-8.html",
+          "hash": "rShNlOYxedOKMqWg1ZDvZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeFunc-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeFunc-9.html",
+          "hash": "1RhRQLhY3c0QGwgqLVVJ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.InvokeMethod-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.InvokeMethod-1.html",
+          "hash": "OrfmAAesS9ve1CdW7uIwDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.LambdaReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.LambdaReference-1.html",
+          "hash": "NQ0Ct0nBisHlRhDq8M4Mng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.LambdaSerializationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.LambdaSerializationException.html",
+          "hash": "AwgsrWhG3fIX18eB26Haug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.LambdaValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.LambdaValue-1.html",
+          "hash": "GmP8f8ili/rwEmH5JWF3/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.LessThan-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.LessThan-3.html",
+          "hash": "41a6gPPR/ZrBculS+QE1Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.LessThanOrEqual-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.LessThanOrEqual-3.html",
+          "hash": "CJHT3QfGT71nMagVQox89w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Literal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Literal-1.html",
+          "hash": "QYuOtr4ipjJKwkbQ8L0gjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.MultidimensionalArrayItemReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.MultidimensionalArrayItemReference-1.html",
+          "hash": "yCEt8DBrv1vHQj3qSxmCkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Multiply-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Multiply-3.html",
+          "hash": "1Qz7fv5s8Rs6SGAQTKR11A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.New-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.New-1.html",
+          "hash": "5eM3AXSIltmYZxiy3QlQqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.NewArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.NewArray-1.html",
+          "hash": "LXtHjug45ue+rzsFMRskMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Not-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Not-2.html",
+          "hash": "AFth9+vy6l7fOG39xHk/Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.NotEqual-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.NotEqual-3.html",
+          "hash": "ex/YFTVUJb7LrBKKHXRBUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Or-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Or-3.html",
+          "hash": "92X4Pma85qSf/rKpEEefMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.OrElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.OrElse.html",
+          "hash": "yQov1Tde+5vL0vEUdGEx3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.PropertyReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.PropertyReference-2.html",
+          "hash": "MH4F/SX1RIb4kSHgV1UdUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.PropertyValue-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.PropertyValue-2.html",
+          "hash": "s4BWmoifXBXyJtodDSENGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.Subtract-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.Subtract-3.html",
+          "hash": "4cYqR4soO1TwwbzMA0AKww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.TextExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.TextExpression.html",
+          "hash": "863BjJY4gKFFQJ2x7M04Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ValueTypeFieldReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ValueTypeFieldReference-2.html",
+          "hash": "nQO1v3Q5fIUpf4AjbHY6fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ValueTypeIndexerReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ValueTypeIndexerReference-2.html",
+          "hash": "r/jh0cSNGpQzZ1gBsK8KRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.ValueTypePropertyReference-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.ValueTypePropertyReference-2.html",
+          "hash": "IkoMqePTRRBdIfRFSuxznw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.VariableReference-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.VariableReference-1.html",
+          "hash": "WahR/gFe7rlsESpldVaRQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.VariableValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.VariableValue-1.html",
+          "hash": "W0avIVTRMM4kN0+Zcb1+8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Expressions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Expressions.html",
+          "hash": "mWUarerVF2oVzFsgWrunVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.FaultCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.FaultCallback.html",
+          "hash": "PJaB9iejW8ss6HKEBFqpAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Handle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Handle.html",
+          "hash": "uwc06zkt+tV/BE1HgCL2wA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.HandleInitializationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.HandleInitializationContext.html",
+          "hash": "1/O7csHsR72G4AwW3fY+mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.BookmarkInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.BookmarkInfo.html",
+          "hash": "6yzt5rAp6FmrkJ9iZBP1jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.BookmarkScopeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.BookmarkScopeInfo.html",
+          "hash": "1HZHsZdP92DYX7sIuXfAmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.IWorkflowInstanceExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.IWorkflowInstanceExtension.html",
+          "hash": "/F/9N1Y+mLKbAL4heauVhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.LocationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.LocationInfo.html",
+          "hash": "LMGs39wkfuLzNoX33ps5Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.SymbolResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.SymbolResolver.html",
+          "hash": "O5PQx9kuUlaJgXqlm4Kvlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.html",
+          "hash": "N6PE6YoFHuuQw2BbOBsT1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.WorkflowInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.WorkflowInstance.html",
+          "hash": "/hlkAs2WXSoPJAJ9jN+Waw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.WorkflowInstanceExtensionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.WorkflowInstanceExtensionManager.html",
+          "hash": "BhcyL5mnGO/JvdVSfd+KlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.WorkflowInstanceProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.WorkflowInstanceProxy.html",
+          "hash": "lZpJFZ0THyGNG+5vfTOCBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.WorkflowInstanceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.WorkflowInstanceState.html",
+          "hash": "PPhc3dlrG3qEZJZKs5Afuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Hosting.html",
+          "hash": "rz6XOk7Xj1csFkfAYAP4Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.IExecutionProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.IExecutionProperty.html",
+          "hash": "MDOnHBGTiL1w1jSTACqMQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.IPropertyRegistrationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.IPropertyRegistrationCallback.html",
+          "hash": "OZRQQTaLNGlvUzYYXEmu1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InArgument-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InArgument-1.html",
+          "hash": "ykC39lm4RorQwA9Acstdhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InArgument.html",
+          "hash": "pvf92fnq2gRHioyPbtGK0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InOutArgument-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InOutArgument-1.html",
+          "hash": "oj5aQEK0FvZULcoi+KKpjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InOutArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InOutArgument.html",
+          "hash": "GlNc6FVcbKzvdimsruPZ9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InvalidWorkflowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InvalidWorkflowException.html",
+          "hash": "QrJnZJLUoU19Th6xp/iexg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.InvokeCompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.InvokeCompletedEventArgs.html",
+          "hash": "kOrXzuCUdGPGhK6iFVWvDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Location-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Location-1.html",
+          "hash": "hXZ5wlN1VC3Lk0S6kV/l5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Location.html",
+          "hash": "3/lomj+ZTxtbsH+7WUuGmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.LocationReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.LocationReference.html",
+          "hash": "mHwgtEmNeIUBGB4OcCztrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.LocationReferenceEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.LocationReferenceEnvironment.html",
+          "hash": "LEA9TZ1joxQX0MG01uPSAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivity-1.html",
+          "hash": "gjpTINgpcgc+aB5omAhkWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivity.html",
+          "hash": "0lKzjp+W/SEdfCPZtOkynw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivityAbortContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivityAbortContext.html",
+          "hash": "s4RlUr6O07l4bX1aRa9uGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivityContext.html",
+          "hash": "CbsFdJgrwSbHlkPeN6yS6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivityFaultContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivityFaultContext.html",
+          "hash": "WaUTOTcbstWhWmaAAgcFGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivityMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivityMetadata.html",
+          "hash": "kQzT/FAifdWIrIJKh2F4Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NativeActivityTransactionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NativeActivityTransactionContext.html",
+          "hash": "lIAqlrmnYVqPZMs5uqL/2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.NoPersistHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.NoPersistHandle.html",
+          "hash": "31oKNN/GJN4sKxtQbLdHHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.OtherXaml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.OtherXaml.html",
+          "hash": "lgcd7f4+HXXSe5nOZ38eag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.OutArgument-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.OutArgument-1.html",
+          "hash": "PzegICsraTq4qvs4caondg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.OutArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.OutArgument.html",
+          "hash": "/Z91yMRJRupp4tFXR69iXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.OverloadGroupAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.OverloadGroupAttribute.html",
+          "hash": "TwgFfkbfauNZVLS22vboKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.PersistableIdleAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.PersistableIdleAction.html",
+          "hash": "bfI6212TwIIL4z2CeGv/ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Persistence.PersistenceIOParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Persistence.PersistenceIOParticipant.html",
+          "hash": "OtRmtDuTbGg23GgxYoNqtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Persistence.PersistenceParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Persistence.PersistenceParticipant.html",
+          "hash": "Xxf8HR5WT+97L7JjIKF1gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Persistence.html",
+          "hash": "oDrQfMGQz6DPx3XocW1/Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.RegistrationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.RegistrationContext.html",
+          "hash": "MVwkqQ0krCsAc+FsssE6Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.RequiredArgumentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.RequiredArgumentAttribute.html",
+          "hash": "57QM4xiBgqX/FQGjy5Uy4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceCollisionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceCollisionException.html",
+          "hash": "fGLOX2pkVGuDZ3EPZPzQZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceCompleteException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceCompleteException.html",
+          "hash": "0+c1RIZ1cNKZ4XdOPD8oRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceHandle.html",
+          "hash": "jh0o0iG425In8sV4A4uMHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceHandleConflictException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceHandleConflictException.html",
+          "hash": "6DDRMxwXttSPVHuYhdw6dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKey.html",
+          "hash": "Z6SDBxGTXIPN3qx3B13SZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyCollisionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyCollisionException.html",
+          "hash": "WYbU08uTiGVH3izoS7lQCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyCompleteException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyCompleteException.html",
+          "hash": "D77itjT0udXEXeYIuAIlPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyNotReadyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyNotReadyException.html",
+          "hash": "j/TjGfPnZaBrfbmLpCxDSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyState.html",
+          "hash": "RuGRHVgovXg5YmABVp3ehA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceKeyView.html",
+          "hash": "oA3qTnOAbOhjn2sB7IZLyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockLostException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockLostException.html",
+          "hash": "x/GL1mJd1sAnQyJLNBZp/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockQueryResult.html",
+          "hash": "ypsROzfAh/Y4O6q9GY0tiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceLockedException.html",
+          "hash": "9p6fVi30vHNuHfR7Y+mE6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceNotReadyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceNotReadyException.html",
+          "hash": "kUMKUpHE3sqUTlitycvStg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwner.html",
+          "hash": "awbuSwH7X0Ys9GjadcaSbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwnerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwnerException.html",
+          "hash": "c/hlmGfMi92tjJvoo7pksg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwnerQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceOwnerQueryResult.html",
+          "hash": "X/kf7vEy9TC7wqr+kQZ/Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceCommand.html",
+          "hash": "epZmuoP+eEkVOvF9sQIQXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceCommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceCommandException.html",
+          "hash": "T+gwlmNNPkvHm4L8z9SL4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceContext.html",
+          "hash": "4J9ue4IuPhXCg5wa0rfIjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceEvent-1.html",
+          "hash": "yl8Mmvn21g0GeZ3HuGwqsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceEvent.html",
+          "hash": "3OwXFhgi+LWh0g5HgCrrmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstancePersistenceException.html",
+          "hash": "r4ysYEPdDvADif/y8JmJ2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceState.html",
+          "hash": "SJYuaKRMGc+5F39fu6woYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceStore.html",
+          "hash": "tUDa/mYLPw9ZglUYlcCOQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceStoreQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceStoreQueryResult.html",
+          "hash": "5n3uoh84ybC07oDhZgSLoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValue.html",
+          "hash": "Kxx2pvPaavGNTOBR4bmpJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValueConsistency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValueConsistency.html",
+          "hash": "UEghfR2h85eU+6RKVlJBvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValueOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceValueOptions.html",
+          "hash": "IZwUC3JptdRPmEhPr/9u/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.InstanceView.html",
+          "hash": "uZr1SwaWZfMsD7NY5Y8a5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Runtime.DurableInstancing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Runtime.DurableInstancing.html",
+          "hash": "LnPzrT/C5fG+o5vR3IZMfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.RuntimeArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.RuntimeArgument.html",
+          "hash": "ApJ+eDxikhz0ukBBKxqMGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.RuntimeDelegateArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.RuntimeDelegateArgument.html",
+          "hash": "OLixZ+3r7oMKV2YWaSbtJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.RuntimeTransactionHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.RuntimeTransactionHandle.html",
+          "hash": "poewNwZ7t4tbDPpLBjeOZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.AddToCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.AddToCollection-1.html",
+          "hash": "XDVt35PBprrOrHPRJpNq+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Assign-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Assign-1.html",
+          "hash": "KlbMlFgY/MzvnK3Uoq9bfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Assign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Assign.html",
+          "hash": "h4+y+31Uco9pPpfQZHnZPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.CancellationScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.CancellationScope.html",
+          "hash": "1dRNFxmecKRr/GKcPoqBzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Catch-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Catch-1.html",
+          "hash": "7Zdb0rHtaORMLYZYfP/I/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Catch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Catch.html",
+          "hash": "ESeuE1YXKblbADphOjadIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.ClearCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.ClearCollection-1.html",
+          "hash": "sC8ymUizuQACJ9F/P+pijw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.CompensableActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.CompensableActivity.html",
+          "hash": "TAs6kZW0UJbuTfd5mRWREg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Compensate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Compensate.html",
+          "hash": "QLlVPXoc2iXONanH8SptFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.CompensationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.CompensationExtension.html",
+          "hash": "qmgbVZ1njdo5UuUzWkLUJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.CompensationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.CompensationToken.html",
+          "hash": "GcUxVR9O2YRVd3T5ylliOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Confirm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Confirm.html",
+          "hash": "V94MWqOKTu7ILk2Q91LLLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.CreateBookmarkScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.CreateBookmarkScope.html",
+          "hash": "0pc/9KEt6rTejfSDwPFnTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Delay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Delay.html",
+          "hash": "ExGQW0GI9/LCsVATMmU9tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.DeleteBookmarkScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.DeleteBookmarkScope.html",
+          "hash": "x0hJdgSuAHdWFfkfbrFkZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.DoWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.DoWhile.html",
+          "hash": "UxzaxZGuEaEAUYA8a+kJqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.DurableTimerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.DurableTimerExtension.html",
+          "hash": "MBF6Q0ONtWrIiAhHwsdWeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.ExistsInCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.ExistsInCollection-1.html",
+          "hash": "UNJdMsvjd1SH08/XNNCY8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.FlowDecision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.FlowDecision.html",
+          "hash": "k2vXzytvP8mDgqZZnLZJGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.FlowNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.FlowNode.html",
+          "hash": "wvMob9Wu0F3J3iZ09A50pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.FlowStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.FlowStep.html",
+          "hash": "+/8c1uSwdQAI2uSXZlq45w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.FlowSwitch-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.FlowSwitch-1.html",
+          "hash": "EpJmGTQysPDvUExsu1BhAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Flowchart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Flowchart.html",
+          "hash": "/p7aN+hfISOEc1bamW10fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.ForEach-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.ForEach-1.html",
+          "hash": "GAI0mKQQzvrWPibKlrp4DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.HandleScope-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.HandleScope-1.html",
+          "hash": "SG5+WkiMdt0xl2sVLxbfsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.If.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.If.html",
+          "hash": "ARn6XSkUKoccXl78/B6N0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-1.html",
+          "hash": "TvFbwPU/qFnAZ8fhaYsRnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-10.html",
+          "hash": "KksoGPsgt69SvPO/4UXCeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-11.html",
+          "hash": "IKvf5ejefAusF37qpvRXUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-12.html",
+          "hash": "fmGJWWpK+7z1ImBPlMekaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-13.html",
+          "hash": "qKdII8qbwUFKKCP+v7GYrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-14.html",
+          "hash": "9J7m8y2RGX72VFE/U2AvkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-15.html",
+          "hash": "wI4TskKBKjZ71NvGJO3+Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-16.html",
+          "hash": "uNCd9FQdfWL9NA3uW5syHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-2.html",
+          "hash": "K0oaXNXLbjXa6aOQ/8et5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-3.html",
+          "hash": "Y7v9ijpliCrSzuvgpPMBwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-4.html",
+          "hash": "1txkZKmnvB11lJRDkX7C5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-5.html",
+          "hash": "vt9TEvMjkUwphb7Ui5UfLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-6.html",
+          "hash": "KDq7y/2/EQmr/ZJHiM5HEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-7.html",
+          "hash": "0cEGDy9hlrExD9Oa8vGQLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-8.html",
+          "hash": "VJJm80Z9p5de/AlLaKvKkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction-9.html",
+          "hash": "iIA6Ua30u9z4GV/LdKoytg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeAction.html",
+          "hash": "Cue+hGxb9P9lnSmlelEHvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeDelegate.html",
+          "hash": "ii7oRRUPGFdjNnTGcAkx1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.InvokeMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.InvokeMethod.html",
+          "hash": "nc/gi8zNNkryiAwdGif0GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.NoPersistScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.NoPersistScope.html",
+          "hash": "XYh5VL4cS6FZNlSgzhHyog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Parallel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Parallel.html",
+          "hash": "tCPnxesRl933F7y+gBK5Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.ParallelForEach-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.ParallelForEach-1.html",
+          "hash": "U5pz/a1ONppXDVdQnp5niQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Persist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Persist.html",
+          "hash": "IZnY1G7FMzOb6bEF7J+zAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Pick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Pick.html",
+          "hash": "fRV++YuWaraiMY4HLbJ69Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.PickBranch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.PickBranch.html",
+          "hash": "Yv8a5IuKQ8s7oHYOm91iDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.RemoveFromCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.RemoveFromCollection-1.html",
+          "hash": "ltpS81YH7DyQfYc+RGZlhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Rethrow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Rethrow.html",
+          "hash": "4LlSIAPqgi77JPY6Y6ThyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Sequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Sequence.html",
+          "hash": "bLAib/eU/zqa8bwdXTOpIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.State.html",
+          "hash": "McXB0puUgTydlyvglafAKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.StateMachine.html",
+          "hash": "1EiwNQhogJ7uKYwXev+eYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Switch-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Switch-1.html",
+          "hash": "x6XkFDy9s8uEJ78zxDHCGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.TerminateWorkflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.TerminateWorkflow.html",
+          "hash": "7iMIZyQnT+VJrX8mdAPXgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Throw.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Throw.html",
+          "hash": "QPN/F1UxD1U797MMDLg7KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.TimerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.TimerExtension.html",
+          "hash": "fBY8gbvnvQ66lGTgbBdcKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Tracking.StateMachineStateQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Tracking.StateMachineStateQuery.html",
+          "hash": "GyZjkSXe4EYXUXy8vCz8bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Tracking.StateMachineStateRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Tracking.StateMachineStateRecord.html",
+          "hash": "nVl+AdieUL01oHXoHQ2YjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Tracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Tracking.html",
+          "hash": "CwlUvNXPPHkxvkQ2Lschow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.TransactionScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.TransactionScope.html",
+          "hash": "2GcBSQWyHJng8y+HW/jgYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.Transition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.Transition.html",
+          "hash": "yUBitXsVEl99444GV8Nfyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.TryCatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.TryCatch.html",
+          "hash": "bavm+4ViiieS6F/5G06GpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.While.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.While.html",
+          "hash": "+6bYMjXIu2oJxo4TZw9Bpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.WorkflowTerminatedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.WorkflowTerminatedException.html",
+          "hash": "xM1N7tvtCgKxIEDsXNOtfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.WriteLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.WriteLine.html",
+          "hash": "rQdXZQqzgwBEkf0tLHFuKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Statements.html",
+          "hash": "XCXdnIHbRoH+9/9CifD42g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityInfo.html",
+          "hash": "i6MHuVu8874N+rdDTaZVMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityScheduledQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityScheduledQuery.html",
+          "hash": "96YpKjFOLzHgsQBWN49ckg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityScheduledRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityScheduledRecord.html",
+          "hash": "rqJUdXU0tR77eKWkBKUvUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityStateQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityStateQuery.html",
+          "hash": "UTplF3gvrQEC1WprCXld6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityStateRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityStateRecord.html",
+          "hash": "8SS225ae6E8YOxyzAeR+Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ActivityStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ActivityStates.html",
+          "hash": "QupgsNYo/zdrZCJ1qzCUFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.BookmarkResumptionQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.BookmarkResumptionQuery.html",
+          "hash": "ORpfp67Z9je1ncOUT9BHkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.BookmarkResumptionRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.BookmarkResumptionRecord.html",
+          "hash": "6gHmgD2lFzDjkpczYx98Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.CancelRequestedQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.CancelRequestedQuery.html",
+          "hash": "2U6d1/kTxY4eDehLgMljKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.CancelRequestedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.CancelRequestedRecord.html",
+          "hash": "xjENKhrJoMBuhIcaVopVsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.CustomTrackingQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.CustomTrackingQuery.html",
+          "hash": "OvHlHteU467Yr/nI2CGecg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.CustomTrackingRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.CustomTrackingRecord.html",
+          "hash": "h9XJhlAnfePcEEZiWT4ghA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.FaultPropagationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.FaultPropagationQuery.html",
+          "hash": "iSa7MMFxdz8L61pnexmDDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.FaultPropagationRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.FaultPropagationRecord.html",
+          "hash": "LhSI52iqgeUVTc1DfCu5Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.ImplementationVisibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.ImplementationVisibility.html",
+          "hash": "zprsACpHJtRGbiC4xaj8JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.TrackingParticipant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.TrackingParticipant.html",
+          "hash": "g4yECxfQUj3UKMq4PE5cxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.TrackingProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.TrackingProfile.html",
+          "hash": "keAgMhyVDVmEHw0AS9ZRbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.TrackingQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.TrackingQuery.html",
+          "hash": "Uwk5Akib5jSR80DiTiUjng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.TrackingRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.TrackingRecord.html",
+          "hash": "uZ5jjd9Tz3dzOfseFMeC4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceAbortedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceAbortedRecord.html",
+          "hash": "Ga8qOk9LjBTwnttbv0xhjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceQuery.html",
+          "hash": "xNIIB66tVGcdb578b+aT7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceRecord.html",
+          "hash": "Xi6pS4J7lMxwwuZtrtBong=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceStates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceStates.html",
+          "hash": "C0yPHjbS52yec+MkcQWnGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceSuspendedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceSuspendedRecord.html",
+          "hash": "ZgOUKFoDZNmH3EAzPDIFjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceTerminatedRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceTerminatedRecord.html",
+          "hash": "BAY76cprgELj9847FbfbhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.WorkflowInstanceUnhandledExceptionRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.WorkflowInstanceUnhandledExceptionRecord.html",
+          "hash": "X0FFyVP9x30jAh7aljlLJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Tracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Tracking.html",
+          "hash": "cilceisqDe3ggP/TDAabPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.TypeConverters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.TypeConverters.html",
+          "hash": "fj1yh3xffNkFwDgPAzFaVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.UnhandledExceptionAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.UnhandledExceptionAction.html",
+          "hash": "fyT4gD3OQlGU1s8/uZjJ4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.ActivityValidationServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.ActivityValidationServices.html",
+          "hash": "SYQHXcM6Zi4AIrdmp0h2Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.AddValidationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.AddValidationError.html",
+          "hash": "Rgz2uyStE7SeERkLet2bFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.AssertValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.AssertValidation.html",
+          "hash": "WYzdsnc14CDGGwul3VuRrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.Constraint-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.Constraint-1.html",
+          "hash": "4yCRzo4l3LkMOyHbv2G3CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.Constraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.Constraint.html",
+          "hash": "bblBszz6eBxqelnGRaOuLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.GetChildSubtree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.GetChildSubtree.html",
+          "hash": "M4JNCllCurec9amOxgICtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.GetParentChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.GetParentChain.html",
+          "hash": "TLG4mnlamM3ih4DchFk3WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.GetWorkflowTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.GetWorkflowTree.html",
+          "hash": "mX0H+uBFVeVh3f29rFWWAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.ValidationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.ValidationContext.html",
+          "hash": "EhgpK8/KSZsTrnLWKrtqag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.ValidationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.ValidationError.html",
+          "hash": "1KvEhotmrPCjTMYdm/bL7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.ValidationResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.ValidationResults.html",
+          "hash": "In56NTB/hMu16rO1qGQ+jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.ValidationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.ValidationSettings.html",
+          "hash": "jgoDpZy6l6x9YxFIILeD9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Validation.html",
+          "hash": "px9s7Khcm8yrx5SFlrYBMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.ValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.ValidationException.html",
+          "hash": "LVaBjVsVjKTh35/YQldQjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Variable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Variable-1.html",
+          "hash": "lqZHpiZ7zP4fkmboMCW4Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.Variable.html",
+          "hash": "//Rvnvbdi3ZgPvp3Vug98A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.VariableModifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.VariableModifiers.html",
+          "hash": "ElGitzr38SrJjRs8pzEqcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.VersionMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.VersionMismatchException.html",
+          "hash": "GM/ASUYfgQPtS0OIceb2ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WfEventSource.EventIds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WfEventSource.EventIds.html",
+          "hash": "ktSyd+ZZyx0wA5l8r2FCSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WfEventSource.Keywords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WfEventSource.Keywords.html",
+          "hash": "b+r5K5GhNwaE1nJbaUlooA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WfEventSource.Opcodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WfEventSource.Opcodes.html",
+          "hash": "mRB5zLl9GGdAOyOzyvKbDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WfEventSource.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WfEventSource.Tasks.html",
+          "hash": "0xrKdTDQSCLSPKtffiDyBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WfEventSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WfEventSource.html",
+          "hash": "XVPpO0t98s9ca73PgN8dng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplication.html",
+          "hash": "7opqKknXk+8nv1gdmSz03A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationAbortedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationAbortedEventArgs.html",
+          "hash": "aQ9wPHFEYIKLchjISh6nrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationAbortedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationAbortedException.html",
+          "hash": "IIn8oRAg5yo9nr+2R/zvhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationCompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationCompletedEventArgs.html",
+          "hash": "CXEMyB0IJWE5nUPGCckACA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationCompletedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationCompletedException.html",
+          "hash": "iUbRwrxBKsGhqLwaOGhN0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationEventArgs.html",
+          "hash": "i+g6q4uKOaOgYsIDwH9fAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationException.html",
+          "hash": "e3i0XxOfFdRWpQ+D3sJ5yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationIdleEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationIdleEventArgs.html",
+          "hash": "/Jy50mpWlimXFiHBjJQp1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationInstance.html",
+          "hash": "Foq8HRDZ3/Q5ca/3urDttw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationTerminatedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationTerminatedException.html",
+          "hash": "GFEu0eJSICqONT4CWW4btQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationUnhandledExceptionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationUnhandledExceptionEventArgs.html",
+          "hash": "toT5bdUwwZ0nUpQ02L5LTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowApplicationUnloadedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowApplicationUnloadedException.html",
+          "hash": "L/3dk1n6RxzGB9BHoBGiQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowDataContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowDataContext.html",
+          "hash": "Bnnpfnksc7zmW1trH4ZfTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowIdentity.html",
+          "hash": "wVAbowmKw7duabCkd9lkUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowIdentityFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowIdentityFilter.html",
+          "hash": "xwzjZFnEqAemB2/UF+30iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowInspectionServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowInspectionServices.html",
+          "hash": "U8njgqSNvSanIKNnUb8WWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.WorkflowInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.WorkflowInvoker.html",
+          "hash": "uqhXYf18WOj+EH41Vg3DLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.XamlIntegration.ActivityWithResultValueSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.XamlIntegration.ActivityWithResultValueSerializer.html",
+          "hash": "y2cLKRXJiQBuTXrQq7U8dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.XamlIntegration.CompiledDataContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.XamlIntegration.CompiledDataContext.html",
+          "hash": "XA/SlUfqQPSRAyI3K94wIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.XamlIntegration.ICompiledExpressionRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.XamlIntegration.ICompiledExpressionRoot.html",
+          "hash": "D3D4PFKD+G8y702MEtnSeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.XamlIntegration.IValueSerializableExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.XamlIntegration.IValueSerializableExpression.html",
+          "hash": "QPnZ0BozM2XijFMiosrhog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.XamlIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.XamlIntegration.html",
+          "hash": "pN3p/0PKQwWfyxfyp/wZsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/System.Activities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/System.Activities.html",
+          "hash": "qLjoHMT0A6gr0Ssrylb1ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "dlRqOO3g+vDjCywiUpUXxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "R2Y2gXkzzHpKudmqHwRTyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "qhZp5wkH4gwy9KhbQGW/Pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Rxq8Q+ntratKa/d5q4pwEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 375,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,4028 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WorkflowApplication
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WorkflowApplication
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="System.Activities.WorkflowApplication">
+  
+  
+  <h1 id="System_Activities_WorkflowApplication" data-uid="System.Activities.WorkflowApplication" class="text-break">Class WorkflowApplication
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html">WorkflowInstance</a></div>
+    <div class="level2"><span class="xref">WorkflowApplication</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_GetExtension__1">WorkflowInstance.GetExtension&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_GetExtensions__1">WorkflowInstance.GetExtensions&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_RegisterExtensionManager_System_Activities_Hosting_WorkflowInstanceExtensionManager_">WorkflowInstance.RegisterExtensionManager(WorkflowInstanceExtensionManager)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_DisposeExtensions">WorkflowInstance.DisposeExtensions()</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_Initialize_System_Collections_Generic_IDictionary_System_String_System_Object__System_Collections_Generic_IList_System_Activities_Handle__">WorkflowInstance.Initialize(IDictionary&lt;String, Object&gt;, IList&lt;Handle&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_Initialize_System_Object_">WorkflowInstance.Initialize(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_ThrowIfReadOnly">WorkflowInstance.ThrowIfReadOnly()</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_FlushTrackingRecords_System_TimeSpan_">WorkflowInstance.FlushTrackingRecords(TimeSpan)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_BeginFlushTrackingRecords_System_TimeSpan_System_AsyncCallback_System_Object_">WorkflowInstance.BeginFlushTrackingRecords(TimeSpan, AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_EndFlushTrackingRecords_System_IAsyncResult_">WorkflowInstance.EndFlushTrackingRecords(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnBeginFlushTrackingRecords_System_AsyncCallback_System_Object_">WorkflowInstance.OnBeginFlushTrackingRecords(AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnEndFlushTrackingRecords_System_IAsyncResult_">WorkflowInstance.OnEndFlushTrackingRecords(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_SynchronizationContext">WorkflowInstance.SynchronizationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_HostEnvironment">WorkflowInstance.HostEnvironment</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_WorkflowDefinition">WorkflowInstance.WorkflowDefinition</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_DefinitionIdentity">WorkflowInstance.DefinitionIdentity</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_IsReadOnly">WorkflowInstance.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_Controller">WorkflowInstance.Controller</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="System.Activities.html">System.Activities</a></h6>
+  <h6><strong>Assembly</strong>: System.Activities.dll</h6>
+  <h5 id="System_Activities_WorkflowApplication_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class WorkflowApplication : WorkflowInstance</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="System_Activities_WorkflowApplication__ctor_" data-uid="System.Activities.WorkflowApplication.#ctor*"></a>
+  <h4 id="System_Activities_WorkflowApplication__ctor_System_Activities_Activity_" data-uid="System.Activities.WorkflowApplication.#ctor(System.Activities.Activity)">WorkflowApplication(Activity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorkflowApplication(Activity workflowDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
+        <td><span class="parametername">workflowDefinition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication__ctor_" data-uid="System.Activities.WorkflowApplication.#ctor*"></a>
+  <h4 id="System_Activities_WorkflowApplication__ctor_System_Activities_Activity_System_Activities_WorkflowIdentity_" data-uid="System.Activities.WorkflowApplication.#ctor(System.Activities.Activity,System.Activities.WorkflowIdentity)">WorkflowApplication(Activity, WorkflowIdentity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorkflowApplication(Activity workflowDefinition, WorkflowIdentity definitionIdentity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
+        <td><span class="parametername">workflowDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication__ctor_" data-uid="System.Activities.WorkflowApplication.#ctor*"></a>
+  <h4 id="System_Activities_WorkflowApplication__ctor_System_Activities_Activity_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="System.Activities.WorkflowApplication.#ctor(System.Activities.Activity,System.Collections.Generic.IDictionary{System.String,System.Object})">WorkflowApplication(Activity, IDictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorkflowApplication(Activity workflowDefinition, IDictionary&lt;string, object&gt; inputs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
+        <td><span class="parametername">workflowDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">inputs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication__ctor_" data-uid="System.Activities.WorkflowApplication.#ctor*"></a>
+  <h4 id="System_Activities_WorkflowApplication__ctor_System_Activities_Activity_System_Collections_Generic_IDictionary_System_String_System_Object__System_Activities_WorkflowIdentity_" data-uid="System.Activities.WorkflowApplication.#ctor(System.Activities.Activity,System.Collections.Generic.IDictionary{System.String,System.Object},System.Activities.WorkflowIdentity)">WorkflowApplication(Activity, IDictionary&lt;String, Object&gt;, WorkflowIdentity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorkflowApplication(Activity workflowDefinition, IDictionary&lt;string, object&gt; inputs, WorkflowIdentity definitionIdentity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
+        <td><span class="parametername">workflowDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">inputs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Aborted_" data-uid="System.Activities.WorkflowApplication.Aborted*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Aborted" data-uid="System.Activities.WorkflowApplication.Aborted">Aborted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;WorkflowApplicationAbortedEventArgs&gt; Aborted { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationAbortedEventArgs.html">WorkflowApplicationAbortedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Completed_" data-uid="System.Activities.WorkflowApplication.Completed*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Completed" data-uid="System.Activities.WorkflowApplication.Completed">Completed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;WorkflowApplicationCompletedEventArgs&gt; Completed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationCompletedEventArgs.html">WorkflowApplicationCompletedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Extensions_" data-uid="System.Activities.WorkflowApplication.Extensions*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Extensions" data-uid="System.Activities.WorkflowApplication.Extensions">Extensions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WorkflowInstanceExtensionManager Extensions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Hosting.WorkflowInstanceExtensionManager.html">WorkflowInstanceExtensionManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Id_" data-uid="System.Activities.WorkflowApplication.Id*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Id" data-uid="System.Activities.WorkflowApplication.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Guid Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_Id">WorkflowInstance.Id</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Idle_" data-uid="System.Activities.WorkflowApplication.Idle*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Idle" data-uid="System.Activities.WorkflowApplication.Idle">Idle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;WorkflowApplicationIdleEventArgs&gt; Idle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationIdleEventArgs.html">WorkflowApplicationIdleEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_InstanceStore_" data-uid="System.Activities.WorkflowApplication.InstanceStore*"></a>
+  <h4 id="System_Activities_WorkflowApplication_InstanceStore" data-uid="System.Activities.WorkflowApplication.InstanceStore">InstanceStore</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InstanceStore InstanceStore { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnUnhandledException_" data-uid="System.Activities.WorkflowApplication.OnUnhandledException*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnUnhandledException" data-uid="System.Activities.WorkflowApplication.OnUnhandledException">OnUnhandledException</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;WorkflowApplicationUnhandledExceptionEventArgs, UnhandledExceptionAction&gt; OnUnhandledException { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationUnhandledExceptionEventArgs.html">WorkflowApplicationUnhandledExceptionEventArgs</a>, <a class="xref" href="System.Activities.UnhandledExceptionAction.html">UnhandledExceptionAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_PersistableIdle_" data-uid="System.Activities.WorkflowApplication.PersistableIdle*"></a>
+  <h4 id="System_Activities_WorkflowApplication_PersistableIdle" data-uid="System.Activities.WorkflowApplication.PersistableIdle">PersistableIdle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;WorkflowApplicationIdleEventArgs, PersistableIdleAction&gt; PersistableIdle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationIdleEventArgs.html">WorkflowApplicationIdleEventArgs</a>, <a class="xref" href="System.Activities.PersistableIdleAction.html">PersistableIdleAction</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_SupportsInstanceKeys_" data-uid="System.Activities.WorkflowApplication.SupportsInstanceKeys*"></a>
+  <h4 id="System_Activities_WorkflowApplication_SupportsInstanceKeys" data-uid="System.Activities.WorkflowApplication.SupportsInstanceKeys">SupportsInstanceKeys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool SupportsInstanceKeys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_SupportsInstanceKeys">WorkflowInstance.SupportsInstanceKeys</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Unloaded_" data-uid="System.Activities.WorkflowApplication.Unloaded*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Unloaded" data-uid="System.Activities.WorkflowApplication.Unloaded">Unloaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;WorkflowApplicationEventArgs&gt; Unloaded { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="System.Activities.WorkflowApplicationEventArgs.html">WorkflowApplicationEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Abort_" data-uid="System.Activities.WorkflowApplication.Abort*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Abort" data-uid="System.Activities.WorkflowApplication.Abort">Abort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Abort()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Abort_" data-uid="System.Activities.WorkflowApplication.Abort*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Abort_System_String_" data-uid="System.Activities.WorkflowApplication.Abort(System.String)">Abort(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Abort(string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_AddInitialInstanceValues_" data-uid="System.Activities.WorkflowApplication.AddInitialInstanceValues*"></a>
+  <h4 id="System_Activities_WorkflowApplication_AddInitialInstanceValues_System_Collections_Generic_IDictionary_System_Xml_Linq_XName_System_Object__" data-uid="System.Activities.WorkflowApplication.AddInitialInstanceValues(System.Collections.Generic.IDictionary{System.Xml.Linq.XName,System.Object})">AddInitialInstanceValues(IDictionary&lt;XName, Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddInitialInstanceValues(IDictionary&lt;XName, object&gt; writeOnlyValues)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.Xml.Linq.XName</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">writeOnlyValues</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginCancel_" data-uid="System.Activities.WorkflowApplication.BeginCancel*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginCancel_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginCancel(System.AsyncCallback,System.Object)">BeginCancel(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginCancel(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginCancel_" data-uid="System.Activities.WorkflowApplication.BeginCancel*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginCancel_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginCancel(System.TimeSpan,System.AsyncCallback,System.Object)">BeginCancel(TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginCancel(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginCreateDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.BeginCreateDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginCreateDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_Activities_WorkflowIdentity_System_Activities_WorkflowIdentityFilter_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginCreateDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.Activities.WorkflowIdentity,System.Activities.WorkflowIdentityFilter,System.AsyncCallback,System.Object)">BeginCreateDefaultInstanceOwner(InstanceStore, WorkflowIdentity, WorkflowIdentityFilter, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginCreateDefaultInstanceOwner(InstanceStore instanceStore, WorkflowIdentity definitionIdentity, WorkflowIdentityFilter identityFilter, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentityFilter.html">WorkflowIdentityFilter</a></td>
+        <td><span class="parametername">identityFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginCreateDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.BeginCreateDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginCreateDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_Activities_WorkflowIdentity_System_Activities_WorkflowIdentityFilter_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginCreateDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.Activities.WorkflowIdentity,System.Activities.WorkflowIdentityFilter,System.TimeSpan,System.AsyncCallback,System.Object)">BeginCreateDefaultInstanceOwner(InstanceStore, WorkflowIdentity, WorkflowIdentityFilter, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginCreateDefaultInstanceOwner(InstanceStore instanceStore, WorkflowIdentity definitionIdentity, WorkflowIdentityFilter identityFilter, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentityFilter.html">WorkflowIdentityFilter</a></td>
+        <td><span class="parametername">identityFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginDeleteDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.BeginDeleteDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginDeleteDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginDeleteDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.AsyncCallback,System.Object)">BeginDeleteDefaultInstanceOwner(InstanceStore, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginDeleteDefaultInstanceOwner(InstanceStore instanceStore, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginDeleteDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.BeginDeleteDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginDeleteDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginDeleteDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan,System.AsyncCallback,System.Object)">BeginDeleteDefaultInstanceOwner(InstanceStore, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginDeleteDefaultInstanceOwner(InstanceStore instanceStore, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginGetInstance_" data-uid="System.Activities.WorkflowApplication.BeginGetInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginGetInstance_System_Guid_System_Activities_Runtime_DurableInstancing_InstanceStore_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginGetInstance(System.Guid,System.Activities.Runtime.DurableInstancing.InstanceStore,System.AsyncCallback,System.Object)">BeginGetInstance(Guid, InstanceStore, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginGetInstance(Guid instanceId, InstanceStore instanceStore, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginGetInstance_" data-uid="System.Activities.WorkflowApplication.BeginGetInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginGetInstance_System_Guid_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginGetInstance(System.Guid,System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan,System.AsyncCallback,System.Object)">BeginGetInstance(Guid, InstanceStore, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginGetInstance(Guid instanceId, InstanceStore instanceStore, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginGetRunnableInstance_" data-uid="System.Activities.WorkflowApplication.BeginGetRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginGetRunnableInstance_System_Activities_Runtime_DurableInstancing_InstanceStore_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginGetRunnableInstance(System.Activities.Runtime.DurableInstancing.InstanceStore,System.AsyncCallback,System.Object)">BeginGetRunnableInstance(InstanceStore, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginGetRunnableInstance(InstanceStore instanceStore, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginGetRunnableInstance_" data-uid="System.Activities.WorkflowApplication.BeginGetRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginGetRunnableInstance_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginGetRunnableInstance(System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan,System.AsyncCallback,System.Object)">BeginGetRunnableInstance(InstanceStore, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAsyncResult BeginGetRunnableInstance(InstanceStore instanceStore, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoad_" data-uid="System.Activities.WorkflowApplication.BeginLoad*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoad_System_Activities_WorkflowApplicationInstance_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoad(System.Activities.WorkflowApplicationInstance,System.AsyncCallback,System.Object)">BeginLoad(WorkflowApplicationInstance, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoad(WorkflowApplicationInstance instance, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoad_" data-uid="System.Activities.WorkflowApplication.BeginLoad*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoad_System_Activities_WorkflowApplicationInstance_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoad(System.Activities.WorkflowApplicationInstance,System.TimeSpan,System.AsyncCallback,System.Object)">BeginLoad(WorkflowApplicationInstance, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoad(WorkflowApplicationInstance instance, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoad_" data-uid="System.Activities.WorkflowApplication.BeginLoad*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoad_System_Guid_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoad(System.Guid,System.AsyncCallback,System.Object)">BeginLoad(Guid, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoad(Guid instanceId, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoad_" data-uid="System.Activities.WorkflowApplication.BeginLoad*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoad_System_Guid_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoad(System.Guid,System.TimeSpan,System.AsyncCallback,System.Object)">BeginLoad(Guid, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoad(Guid instanceId, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoadRunnableInstance_" data-uid="System.Activities.WorkflowApplication.BeginLoadRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoadRunnableInstance_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoadRunnableInstance(System.AsyncCallback,System.Object)">BeginLoadRunnableInstance(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoadRunnableInstance(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginLoadRunnableInstance_" data-uid="System.Activities.WorkflowApplication.BeginLoadRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginLoadRunnableInstance_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginLoadRunnableInstance(System.TimeSpan,System.AsyncCallback,System.Object)">BeginLoadRunnableInstance(TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginLoadRunnableInstance(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginPersist_" data-uid="System.Activities.WorkflowApplication.BeginPersist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginPersist_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginPersist(System.AsyncCallback,System.Object)">BeginPersist(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginPersist(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginPersist_" data-uid="System.Activities.WorkflowApplication.BeginPersist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginPersist_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginPersist(System.TimeSpan,System.AsyncCallback,System.Object)">BeginPersist(TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginPersist(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginResumeBookmark_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginResumeBookmark_System_Activities_Bookmark_System_Object_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark(System.Activities.Bookmark,System.Object,System.AsyncCallback,System.Object)">BeginResumeBookmark(Bookmark, Object, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginResumeBookmark(Bookmark bookmark, object value, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
+        <td><span class="parametername">bookmark</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginResumeBookmark_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)">BeginResumeBookmark(Bookmark, Object, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginResumeBookmark(Bookmark bookmark, object value, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
+        <td><span class="parametername">bookmark</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginResumeBookmark_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginResumeBookmark_System_String_System_Object_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark(System.String,System.Object,System.AsyncCallback,System.Object)">BeginResumeBookmark(String, Object, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginResumeBookmark(string bookmarkName, object value, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bookmarkName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginResumeBookmark_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginResumeBookmark_System_String_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginResumeBookmark(System.String,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)">BeginResumeBookmark(String, Object, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginResumeBookmark(string bookmarkName, object value, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bookmarkName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginRun_" data-uid="System.Activities.WorkflowApplication.BeginRun*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginRun_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginRun(System.AsyncCallback,System.Object)">BeginRun(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginRun(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginRun_" data-uid="System.Activities.WorkflowApplication.BeginRun*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginRun_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginRun(System.TimeSpan,System.AsyncCallback,System.Object)">BeginRun(TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginRun(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginTerminate_" data-uid="System.Activities.WorkflowApplication.BeginTerminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginTerminate_System_Exception_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginTerminate(System.Exception,System.AsyncCallback,System.Object)">BeginTerminate(Exception, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginTerminate(Exception reason, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginTerminate_" data-uid="System.Activities.WorkflowApplication.BeginTerminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginTerminate_System_Exception_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginTerminate(System.Exception,System.TimeSpan,System.AsyncCallback,System.Object)">BeginTerminate(Exception, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginTerminate(Exception reason, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginTerminate_" data-uid="System.Activities.WorkflowApplication.BeginTerminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginTerminate_System_String_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginTerminate(System.String,System.AsyncCallback,System.Object)">BeginTerminate(String, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginTerminate(string reason, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginTerminate_" data-uid="System.Activities.WorkflowApplication.BeginTerminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginTerminate_System_String_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginTerminate(System.String,System.TimeSpan,System.AsyncCallback,System.Object)">BeginTerminate(String, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginTerminate(string reason, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginUnload_" data-uid="System.Activities.WorkflowApplication.BeginUnload*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginUnload_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginUnload(System.AsyncCallback,System.Object)">BeginUnload(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginUnload(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_BeginUnload_" data-uid="System.Activities.WorkflowApplication.BeginUnload*"></a>
+  <h4 id="System_Activities_WorkflowApplication_BeginUnload_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.BeginUnload(System.TimeSpan,System.AsyncCallback,System.Object)">BeginUnload(TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginUnload(TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Cancel_" data-uid="System.Activities.WorkflowApplication.Cancel*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Cancel" data-uid="System.Activities.WorkflowApplication.Cancel">Cancel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Cancel_" data-uid="System.Activities.WorkflowApplication.Cancel*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Cancel_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Cancel(System.TimeSpan)">Cancel(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_CreateDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.CreateDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_CreateDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_Activities_WorkflowIdentity_System_Activities_WorkflowIdentityFilter_" data-uid="System.Activities.WorkflowApplication.CreateDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.Activities.WorkflowIdentity,System.Activities.WorkflowIdentityFilter)">CreateDefaultInstanceOwner(InstanceStore, WorkflowIdentity, WorkflowIdentityFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateDefaultInstanceOwner(InstanceStore instanceStore, WorkflowIdentity definitionIdentity, WorkflowIdentityFilter identityFilter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentityFilter.html">WorkflowIdentityFilter</a></td>
+        <td><span class="parametername">identityFilter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_CreateDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.CreateDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_CreateDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_Activities_WorkflowIdentity_System_Activities_WorkflowIdentityFilter_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.CreateDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.Activities.WorkflowIdentity,System.Activities.WorkflowIdentityFilter,System.TimeSpan)">CreateDefaultInstanceOwner(InstanceStore, WorkflowIdentity, WorkflowIdentityFilter, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateDefaultInstanceOwner(InstanceStore instanceStore, WorkflowIdentity definitionIdentity, WorkflowIdentityFilter identityFilter, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentity.html">WorkflowIdentity</a></td>
+        <td><span class="parametername">definitionIdentity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowIdentityFilter.html">WorkflowIdentityFilter</a></td>
+        <td><span class="parametername">identityFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_DeleteDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.DeleteDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_DeleteDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_" data-uid="System.Activities.WorkflowApplication.DeleteDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore)">DeleteDefaultInstanceOwner(InstanceStore)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteDefaultInstanceOwner(InstanceStore instanceStore)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_DeleteDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.DeleteDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_DeleteDefaultInstanceOwner_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.DeleteDefaultInstanceOwner(System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan)">DeleteDefaultInstanceOwner(InstanceStore, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteDefaultInstanceOwner(InstanceStore instanceStore, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndCancel_" data-uid="System.Activities.WorkflowApplication.EndCancel*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndCancel_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndCancel(System.IAsyncResult)">EndCancel(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndCancel(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndCreateDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.EndCreateDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndCreateDefaultInstanceOwner_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndCreateDefaultInstanceOwner(System.IAsyncResult)">EndCreateDefaultInstanceOwner(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EndCreateDefaultInstanceOwner(IAsyncResult asyncResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">asyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndDeleteDefaultInstanceOwner_" data-uid="System.Activities.WorkflowApplication.EndDeleteDefaultInstanceOwner*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndDeleteDefaultInstanceOwner_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndDeleteDefaultInstanceOwner(System.IAsyncResult)">EndDeleteDefaultInstanceOwner(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EndDeleteDefaultInstanceOwner(IAsyncResult asyncResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">asyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndGetInstance_" data-uid="System.Activities.WorkflowApplication.EndGetInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndGetInstance_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndGetInstance(System.IAsyncResult)">EndGetInstance(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance EndGetInstance(IAsyncResult asyncResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">asyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndGetRunnableInstance_" data-uid="System.Activities.WorkflowApplication.EndGetRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndGetRunnableInstance_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndGetRunnableInstance(System.IAsyncResult)">EndGetRunnableInstance(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance EndGetRunnableInstance(IAsyncResult asyncResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">asyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndLoad_" data-uid="System.Activities.WorkflowApplication.EndLoad*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndLoad_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndLoad(System.IAsyncResult)">EndLoad(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndLoad(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndLoadRunnableInstance_" data-uid="System.Activities.WorkflowApplication.EndLoadRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndLoadRunnableInstance_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndLoadRunnableInstance(System.IAsyncResult)">EndLoadRunnableInstance(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndLoadRunnableInstance(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndPersist_" data-uid="System.Activities.WorkflowApplication.EndPersist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndPersist_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndPersist(System.IAsyncResult)">EndPersist(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndPersist(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndResumeBookmark_" data-uid="System.Activities.WorkflowApplication.EndResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndResumeBookmark_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndResumeBookmark(System.IAsyncResult)">EndResumeBookmark(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BookmarkResumptionResult EndResumeBookmark(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndRun_" data-uid="System.Activities.WorkflowApplication.EndRun*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndRun_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndRun(System.IAsyncResult)">EndRun(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndRun(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndTerminate_" data-uid="System.Activities.WorkflowApplication.EndTerminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndTerminate_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndTerminate(System.IAsyncResult)">EndTerminate(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndTerminate(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_EndUnload_" data-uid="System.Activities.WorkflowApplication.EndUnload*"></a>
+  <h4 id="System_Activities_WorkflowApplication_EndUnload_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.EndUnload(System.IAsyncResult)">EndUnload(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndUnload(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetBookmarks_" data-uid="System.Activities.WorkflowApplication.GetBookmarks*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetBookmarks" data-uid="System.Activities.WorkflowApplication.GetBookmarks">GetBookmarks()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;BookmarkInfo&gt; GetBookmarks()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="System.Activities.Hosting.BookmarkInfo.html">BookmarkInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetBookmarks_" data-uid="System.Activities.WorkflowApplication.GetBookmarks*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetBookmarks_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.GetBookmarks(System.TimeSpan)">GetBookmarks(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;BookmarkInfo&gt; GetBookmarks(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="System.Activities.Hosting.BookmarkInfo.html">BookmarkInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetInstance_" data-uid="System.Activities.WorkflowApplication.GetInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetInstance_System_Guid_System_Activities_Runtime_DurableInstancing_InstanceStore_" data-uid="System.Activities.WorkflowApplication.GetInstance(System.Guid,System.Activities.Runtime.DurableInstancing.InstanceStore)">GetInstance(Guid, InstanceStore)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance GetInstance(Guid instanceId, InstanceStore instanceStore)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetInstance_" data-uid="System.Activities.WorkflowApplication.GetInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetInstance_System_Guid_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.GetInstance(System.Guid,System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan)">GetInstance(Guid, InstanceStore, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance GetInstance(Guid instanceId, InstanceStore instanceStore, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetRunnableInstance_" data-uid="System.Activities.WorkflowApplication.GetRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetRunnableInstance_System_Activities_Runtime_DurableInstancing_InstanceStore_" data-uid="System.Activities.WorkflowApplication.GetRunnableInstance(System.Activities.Runtime.DurableInstancing.InstanceStore)">GetRunnableInstance(InstanceStore)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance GetRunnableInstance(InstanceStore instanceStore)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_GetRunnableInstance_" data-uid="System.Activities.WorkflowApplication.GetRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_GetRunnableInstance_System_Activities_Runtime_DurableInstancing_InstanceStore_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.GetRunnableInstance(System.Activities.Runtime.DurableInstancing.InstanceStore,System.TimeSpan)">GetRunnableInstance(InstanceStore, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkflowApplicationInstance GetRunnableInstance(InstanceStore instanceStore, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceStore.html">InstanceStore</a></td>
+        <td><span class="parametername">instanceStore</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Load_" data-uid="System.Activities.WorkflowApplication.Load*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Load_System_Activities_WorkflowApplicationInstance_" data-uid="System.Activities.WorkflowApplication.Load(System.Activities.WorkflowApplicationInstance)">Load(WorkflowApplicationInstance)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(WorkflowApplicationInstance instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Load_" data-uid="System.Activities.WorkflowApplication.Load*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Load_System_Activities_WorkflowApplicationInstance_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Load(System.Activities.WorkflowApplicationInstance,System.TimeSpan)">Load(WorkflowApplicationInstance, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(WorkflowApplicationInstance instance, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.WorkflowApplicationInstance.html">WorkflowApplicationInstance</a></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Load_" data-uid="System.Activities.WorkflowApplication.Load*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Load_System_Guid_" data-uid="System.Activities.WorkflowApplication.Load(System.Guid)">Load(Guid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(Guid instanceId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Load_" data-uid="System.Activities.WorkflowApplication.Load*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Load_System_Guid_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Load(System.Guid,System.TimeSpan)">Load(Guid, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Load(Guid instanceId, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">instanceId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_LoadRunnableInstance_" data-uid="System.Activities.WorkflowApplication.LoadRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_LoadRunnableInstance" data-uid="System.Activities.WorkflowApplication.LoadRunnableInstance">LoadRunnableInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadRunnableInstance()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_LoadRunnableInstance_" data-uid="System.Activities.WorkflowApplication.LoadRunnableInstance*"></a>
+  <h4 id="System_Activities_WorkflowApplication_LoadRunnableInstance_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.LoadRunnableInstance(System.TimeSpan)">LoadRunnableInstance(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadRunnableInstance(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnBeginAssociateKeys_" data-uid="System.Activities.WorkflowApplication.OnBeginAssociateKeys*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.OnBeginAssociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey},System.AsyncCallback,System.Object)">OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt;, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IAsyncResult OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt; keys, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnBeginAssociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__System_AsyncCallback_System_Object_">WorkflowInstance.OnBeginAssociateKeys(ICollection&lt;InstanceKey&gt;, AsyncCallback, Object)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnBeginPersist_" data-uid="System.Activities.WorkflowApplication.OnBeginPersist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnBeginPersist_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.OnBeginPersist(System.AsyncCallback,System.Object)">OnBeginPersist(AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IAsyncResult OnBeginPersist(AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnBeginPersist_System_AsyncCallback_System_Object_">WorkflowInstance.OnBeginPersist(AsyncCallback, Object)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnBeginResumeBookmark_" data-uid="System.Activities.WorkflowApplication.OnBeginResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_" data-uid="System.Activities.WorkflowApplication.OnBeginResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan,System.AsyncCallback,System.Object)">OnBeginResumeBookmark(Bookmark, Object, TimeSpan, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IAsyncResult OnBeginResumeBookmark(Bookmark bookmark, object value, TimeSpan timeout, AsyncCallback callback, object state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
+        <td><span class="parametername">bookmark</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnBeginResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_System_AsyncCallback_System_Object_">WorkflowInstance.OnBeginResumeBookmark(Bookmark, Object, TimeSpan, AsyncCallback, Object)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnDisassociateKeys_" data-uid="System.Activities.WorkflowApplication.OnDisassociateKeys*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__" data-uid="System.Activities.WorkflowApplication.OnDisassociateKeys(System.Collections.Generic.ICollection{System.Activities.Runtime.DurableInstancing.InstanceKey})">OnDisassociateKeys(ICollection&lt;InstanceKey&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDisassociateKeys(ICollection&lt;InstanceKey&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="System.Activities.Runtime.DurableInstancing.InstanceKey.html">InstanceKey</a>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnDisassociateKeys_System_Collections_Generic_ICollection_System_Activities_Runtime_DurableInstancing_InstanceKey__">WorkflowInstance.OnDisassociateKeys(ICollection&lt;InstanceKey&gt;)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnEndAssociateKeys_" data-uid="System.Activities.WorkflowApplication.OnEndAssociateKeys*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnEndAssociateKeys_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.OnEndAssociateKeys(System.IAsyncResult)">OnEndAssociateKeys(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEndAssociateKeys(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnEndAssociateKeys_System_IAsyncResult_">WorkflowInstance.OnEndAssociateKeys(IAsyncResult)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnEndPersist_" data-uid="System.Activities.WorkflowApplication.OnEndPersist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnEndPersist_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.OnEndPersist(System.IAsyncResult)">OnEndPersist(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEndPersist(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnEndPersist_System_IAsyncResult_">WorkflowInstance.OnEndPersist(IAsyncResult)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnEndResumeBookmark_" data-uid="System.Activities.WorkflowApplication.OnEndResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnEndResumeBookmark_System_IAsyncResult_" data-uid="System.Activities.WorkflowApplication.OnEndResumeBookmark(System.IAsyncResult)">OnEndResumeBookmark(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override BookmarkResumptionResult OnEndResumeBookmark(IAsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnEndResumeBookmark_System_IAsyncResult_">WorkflowInstance.OnEndResumeBookmark(IAsyncResult)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnNotifyPaused_" data-uid="System.Activities.WorkflowApplication.OnNotifyPaused*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnNotifyPaused" data-uid="System.Activities.WorkflowApplication.OnNotifyPaused">OnNotifyPaused()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnNotifyPaused()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnNotifyPaused">WorkflowInstance.OnNotifyPaused()</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnNotifyUnhandledException_" data-uid="System.Activities.WorkflowApplication.OnNotifyUnhandledException*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_" data-uid="System.Activities.WorkflowApplication.OnNotifyUnhandledException(System.Exception,System.Activities.Activity,System.String)">OnNotifyUnhandledException(Exception, Activity, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnNotifyUnhandledException(Exception exception, Activity exceptionSource, string exceptionSourceInstanceId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">exception</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="System.Activities.Activity.html">Activity</a></td>
+        <td><span class="parametername">exceptionSource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">exceptionSourceInstanceId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnNotifyUnhandledException_System_Exception_System_Activities_Activity_System_String_">WorkflowInstance.OnNotifyUnhandledException(Exception, Activity, String)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_OnRequestAbort_" data-uid="System.Activities.WorkflowApplication.OnRequestAbort*"></a>
+  <h4 id="System_Activities_WorkflowApplication_OnRequestAbort_System_Exception_" data-uid="System.Activities.WorkflowApplication.OnRequestAbort(System.Exception)">OnRequestAbort(Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRequestAbort(Exception reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="System.Activities.Hosting.WorkflowInstance.html#System_Activities_Hosting_WorkflowInstance_OnRequestAbort_System_Exception_">WorkflowInstance.OnRequestAbort(Exception)</a></div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Persist_" data-uid="System.Activities.WorkflowApplication.Persist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Persist" data-uid="System.Activities.WorkflowApplication.Persist">Persist()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Persist()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Persist_" data-uid="System.Activities.WorkflowApplication.Persist*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Persist_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Persist(System.TimeSpan)">Persist(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Persist(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_ResumeBookmark_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_ResumeBookmark_System_Activities_Bookmark_System_Object_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark(System.Activities.Bookmark,System.Object)">ResumeBookmark(Bookmark, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BookmarkResumptionResult ResumeBookmark(Bookmark bookmark, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
+        <td><span class="parametername">bookmark</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_ResumeBookmark_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_ResumeBookmark_System_Activities_Bookmark_System_Object_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark(System.Activities.Bookmark,System.Object,System.TimeSpan)">ResumeBookmark(Bookmark, Object, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BookmarkResumptionResult ResumeBookmark(Bookmark bookmark, object value, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.Bookmark.html">Bookmark</a></td>
+        <td><span class="parametername">bookmark</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_ResumeBookmark_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_ResumeBookmark_System_String_System_Object_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark(System.String,System.Object)">ResumeBookmark(String, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BookmarkResumptionResult ResumeBookmark(string bookmarkName, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bookmarkName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_ResumeBookmark_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark*"></a>
+  <h4 id="System_Activities_WorkflowApplication_ResumeBookmark_System_String_System_Object_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.ResumeBookmark(System.String,System.Object,System.TimeSpan)">ResumeBookmark(String, Object, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BookmarkResumptionResult ResumeBookmark(string bookmarkName, object value, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">bookmarkName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="System.Activities.BookmarkResumptionResult.html">BookmarkResumptionResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Run_" data-uid="System.Activities.WorkflowApplication.Run*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Run" data-uid="System.Activities.WorkflowApplication.Run">Run()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Run()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Run_" data-uid="System.Activities.WorkflowApplication.Run*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Run_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Run(System.TimeSpan)">Run(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Run(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Terminate_" data-uid="System.Activities.WorkflowApplication.Terminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Terminate_System_Exception_" data-uid="System.Activities.WorkflowApplication.Terminate(System.Exception)">Terminate(Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Terminate(Exception reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Terminate_" data-uid="System.Activities.WorkflowApplication.Terminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Terminate_System_Exception_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Terminate(System.Exception,System.TimeSpan)">Terminate(Exception, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Terminate(Exception reason, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Terminate_" data-uid="System.Activities.WorkflowApplication.Terminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Terminate_System_String_" data-uid="System.Activities.WorkflowApplication.Terminate(System.String)">Terminate(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Terminate(string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Terminate_" data-uid="System.Activities.WorkflowApplication.Terminate*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Terminate_System_String_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Terminate(System.String,System.TimeSpan)">Terminate(String, TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Terminate(string reason, TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Unload_" data-uid="System.Activities.WorkflowApplication.Unload*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Unload" data-uid="System.Activities.WorkflowApplication.Unload">Unload()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unload()</code></pre>
+  </div>
+  
+  
+  <a id="System_Activities_WorkflowApplication_Unload_" data-uid="System.Activities.WorkflowApplication.Unload*"></a>
+  <h4 id="System_Activities_WorkflowApplication_Unload_System_TimeSpan_" data-uid="System.Activities.WorkflowApplication.Unload(System.TimeSpan)">Unload(TimeSpan)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unload(TimeSpan timeout)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">timeout</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
